@@ -296,7 +296,7 @@ pre {
   padding-top: 0;
 }
 .home{
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 .download {
   padding: 10px;
@@ -339,8 +339,7 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-  padding-top: 3.5em;
-  text-align: center;
+  padding-top: 2em;
 }
 .postDate {
   float: left;
@@ -360,6 +359,7 @@ pre {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-indent: 3px;
+  margin-bottom: 15px
 }
 /**
  * Site header
@@ -372,12 +372,12 @@ pre {
   position: relative;
 }
 .site-title {
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 100;
   font-family: 'PT Sans';
   text-transform: capitalize;
   font-weight: 500;
-  margin-top: 1em;
+  margin-top: 0.5em;
   &,
   &:visited {
     color: $grey-color-dark;
@@ -405,7 +405,7 @@ pre {
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 .page-title {
   text-transform: uppercase;
@@ -573,7 +573,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 36px;
 
   text-align: center;
   font-family: "PT Sans";
@@ -587,6 +587,10 @@ pre {
   padding-bottom: 3em !important;
   p {
     font-size: 1.25rem;
+
+    @include media-query($on-palm) {
+      font-size: 1.1rem;
+    }
   }
   h2 {
     font-size: 32px;
