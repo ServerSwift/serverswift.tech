@@ -384,6 +384,10 @@ pre {
   }
 }
 .site-description {
+  center {
+    font-size: 24px;
+  }
+
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
@@ -582,7 +586,7 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   h2 {
     font-size: 32px;
