@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Issue #1"
-date:   2016-06-19 19:45:31 +0530
+date:   2016-07-19 19:45:31 +0530
 ---
 Hello and welcome to the first issue of Server-Side Swift Newsletter!
 
