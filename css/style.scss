@@ -28,8 +28,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -43,15 +41,12 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
-
 
 /**
  * Reset some basic elements
@@ -62,8 +57,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
 
 /**
  * Basic styling
@@ -102,8 +95,6 @@ img {
     vertical-align: middle;
 }
 
-
-
 /**
  * Figures
  */
@@ -114,8 +105,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -131,8 +120,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -140,13 +127,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
-
-
 /**
  * Links
  */
 a {
-    color: #aaa !important;
+    color: #2386C8 !important;
     text-decoration: none;
 
     &:visited {
@@ -188,8 +173,6 @@ a {
     }
 }
 
-
-
 /**
  * Blockquotes
  */
@@ -198,15 +181,12 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
     font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Code formatting
@@ -234,8 +214,6 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -256,8 +234,6 @@ pre {
     }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -269,8 +245,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
@@ -340,6 +314,10 @@ pre {
 }
 .postContent {
   padding-top: 2em;
+
+  @include media-query($on-palm) {
+    padding-top: 1em;
+  }
 }
 .postDate {
   float: left;
@@ -377,7 +355,14 @@ pre {
   font-family: 'PT Sans';
   text-transform: capitalize;
   font-weight: 500;
+
   margin-top: 0.5em;
+
+  @include media-query($on-palm) {
+    margin-top: 0.25em;
+    line-height: normal;
+  }
+
   &,
   &:visited {
     color: $grey-color-dark;
@@ -682,4 +667,57 @@ pre {
     .vg    { color: #008080 } // Name.Variable.Global
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+#mc_embed_signup {
+  border: none;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1em;
+
+  .mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+  #mce-EMAIL { font-family: 'PT Sans', Helvetica, Arial, sans-serif; font-size: 1.15em; border: 2px solid #ABB0B2 ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
+
+  .clear { display: inline-block; } /* positions button horizontally in line with input */
+
+  .button {
+    font-family: 'PT Sans', Helvetica,  Arial, sans-serif;
+    font-size: 1.15em;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #2386C8 ;
+    padding: .7em 2em;
+    border: 2px solid #2386C8 ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0;
+  } /* Button Styles */
+
+  :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */
+  :-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
+  ::-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 19+ */
+  :-ms-input-placeholder { color: #ABB0B2 ; } /* Internet Explorer 10+ */
+
+  @include media-query($on-palm) {
+    .mc-field-group {
+      display: block;
+      max-width: 100%;
+      padding-right: 6px;
+    }
+    #mce-EMAIL {
+      padding: .7em 0 .7em 1em;
+      width: 96%;
+      margin: 0;
+    }
+    .clear { display: block; width: 100% }
+    .button { width: 100%; margin: .5em 0 0 0; }
+  }
+
+  input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 5px;
+  }
 }

@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Issue #1"
+date:   2016-06-19 19:45:31 +0530
+---
+Hello and welcome to the first issue of Server-Side Swift Newsletter!
+
+I myself was excited when Apple announced that Swift is going to be open-source. And while it's huge for iOS community to be able to have impact on the language evolution, it's as important for developing ports of Swift toolchain for other platforms. It's great that Apple delivered Swift for Linux as a first-class port, and obviously Linux is the first OS to consider when you develop server-side software. We all see how quickly server-side Swift is evolving, so in this newsletter I'm going to highlight the best content that will help you to keep track of the blooming ecosystem.
+
+While main focus will be Swift on Linux, I think it's worth mentioning other related content from time to time, such as Swift on bare metal, backend architecture etc.
+
+I hope you enjoy it and I'm looking forward to your feedback! Give me a shout on [twitter](http://twitter.com/_digital_signal) or just reply to the newsletter email.
+
+## Links
+
+### [vapor.university](http://vapor.university)
+
+Qutheory has just published a list of videos and articles that will help you to get started with Vapor framework. It covers both the basic level overview and some more advanced topics.
+
+### [Swift Nightly](http://swiftnightly.com)
+
+[Ankit Aggarwal](https://twitter.com/aciidb0mb3r) has published a site where you can keep track of Swift nightly builds for different platforms, including Raspberry Pi and BeagleBone Black builds. While [builds provided by Apple](https://swift.org/download/) are good enough for general use, those aren't updated frequently enough if you try to track latest development of the compiler, Foundation or the package manager. Now in most cases you can avoid waiting for the toolchain to compile locally which takes long enough even on powerful hardware.
+
+### [Building Swift IDE](http://modocache.io/nuclide-swift-ide)
+
+[Brian Gesiak](https://twitter.com/modocache) built a package for [Atom](https://atom.io) editor with a lot of cool features: building, testing, autocompletion, type hints and automatic formatting of Swift code. I'm looking forward to seeing the rest of the roadmap implemented: real-time error checks, remote development/debugging and others. I hope that SourceKit is ported to other platforms really soon so that `nuclide-swift` becomes cross-platform as well. Remote cross-platform debugging is going to be especially neat for server-side code.
+
+### [Try out Swift packages in the IBM Swift Sandbox](https://developer.ibm.com/swift/2016/06/13/try-out-swift-packages-in-the-ibm-swift-sandbox/)
+
+IBM Swift Package Catalog was recently updated to version 0.5 which introduces integration with IBM Swift Sandbox. Now packages with sample code have "Try in Sandbox" button displayed on their pages in the catalog. Check out a [SwiftJSON](https://swiftpkgs.ng.bluemix.net/package/IBM-Swift/SwiftyJSON) sample in the sandbox with just a press of a button.
+
+### [Serverless Architectures](http://martinfowler.com/articles/serverless.html)
+
+A longform post by [Mike Roberts](https://twitter.com/mikebroberts):
+
+> Serverless is a hot topic in the software architecture world. We’re already seeing books, open source frameworks, plenty of vendor products, and even a conference dedicated to the subject. But what is Serverless and why is (or isn’t) it worth considering? Through this evolving publication I hope to enlighten you a little on these questions.
+
+## Code
+
+### [Cross-platform Foundation](https://github.com/apple/swift-corelibs-foundation/commits/master)
+
+I tracked some of the PR's merged recently and here are few interesting highlights:
+
+* While NS prefixes were stripped in Foundation that shipped with Xcode 8 beta 1, Swift 3.0 Preview 2 for Linux still ships Foundation with NS prefixes, which is not great when you test your code both on macOS and Linux. It does look like Swift 3.0 Preview 3 is finally going to have this fixed and Foundation APIs will be roughly the same.
+
+* [Initial Implementation of Stream and NSOutputStream](https://github.com/apple/swift-corelibs-foundation/pull/443) and initial [port to Swift 3 Dispatch API](https://github.com/apple/swift-corelibs-foundation/pull/434) were merged.
+
+* There is still a huge chunk of APIs still not implemented, namely `NSURLSession` and friends. While some of these gaps can be covered by [Open Swift](https://github.com/open-swift), it's still not ideal for cross-platform code and I hope that these APIs will be implemented by Swift 3.0 release time. In the meantime, [here](https://github.com/apple/swift-corelibs-foundation/pull/426) is `NSURLSession` PR to keep an eye on.
+
+### [CommandLine](https://github.com/jatoben/CommandLine)
+
+`CommandLine` by [Ben Gollmer](https://github.com/jatoben) recently had support for Swift 3 added. The library provides easy handling of command-line arguments and supports both macOS and Linux.
+
+### [BTree](https://github.com/lorentey/BTree/tree/swift3)
+
+`BTree` by [Karoly Lorentey](https://github.com/lorentey) has Swift 3 support in development. It doesn't look like there's anything that prevents compiling this code on Linux. I would definitely give it a try:
+
+>This project provides an efficient in-memory B-tree implementation in pure Swift, and several useful ordered collection types that use B-trees for their underlying storage: `Map`, `List`, `OrderedSet`, `BTree`.
+
+### [SlackKit](https://github.com/pvzig/SlackKit)
+
+`SlackKit` 2.0.0 by [Peter Zignego](Peter Zignego) was tagged yesterday 🎉
+
+>This is a Slack client library for OS X, iOS, and tvOS written in Swift. It's intended to expose all of the functionality of Slack's Real Time Messaging API as well as the web APIs that are accessible to bot users. SlackKit also supports Slack’s OAuth 2.0 flow including the Add to Slack and Sign in with Slack buttons, incoming webhooks, slash commands, and message buttons.
+
+>SlackKit also has alpha support for: Swift 3, Linux
+
+## SwiftPM
+
+### [Package Manager Test Naming Conventions Proposal](https://lists.swift.org/pipermail/swift-build-dev/Week-of-Mon-20160718/000555.html)
+
+`swift-build-dev` mailing list doesn't have as much traffic as `swift-evolution`, but that means it's much easier to track ongoing SwiftPM evolution. [Anders Bertelrud](https://github.com/abertelrud) has just posted this proposal for preliminary discussion:
+
+> The Swift Package Manager uses a convention-based rather than a declarative approach for various aspects of package configuration. This is as true of the naming and structure of tests as of other kinds of targets.
+
+> However, the current conventions are somewhat inconsistent and unintuitive, and they also do not provide enough flexibility. This proposal seeks to address these problems through updated conventions.

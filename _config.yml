@@ -8,7 +8,7 @@
 # Site settings
 title: Server-side Swift
 email: max.desiatov@gmail.com
-description: A newsletter with the best links related to server-side Swift, Swift on Linux and Swift build system.
+description: A newsletter with the best links related to server-side Swift and related developer tools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://serverswift.tech" # the base hostname & protocol for your site
 twitter_username: _digital_signal
