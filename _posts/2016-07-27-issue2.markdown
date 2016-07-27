@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "Issue #2"
+date:   2016-07-27
+---
+
+This week is quite interesting, as Swift 3 evolution will
+finish today in the preparation for the imminent release.
+The fate of accepted-but-not-implemented proposals will be decided today as well.
+More details are available on [Erica Sadun's blog](http://ericasadun.com/2016/07/15/announcement-swift-3-endgame/).
+As we also know, on the 1st of August work on Swift 4 evolution will commence. Personally, while
+it is known that introducing binary compatibility will be the main focus of Swift 4, I hope that some
+language-level improvements to asynchronous code will be proposed and accepted
+in Swift 4 time frame. This would bring Swift on a par with other modern languages,
+such as Go and Rust. Fingers crossed, in a week we will see some high-level vision presented by the
+core language team. In the meantime, let's get started with this week's issue.
+
+<small><i>Max Desiatov</i></small>
+
+## Links
+
+### [Swift and Linux. Now and the Future](https://speakerdeck.com/ianpartridge/swift-and-linux-now-and-the-future)
+
+A very good overview talk from [Ian Partridge](https://twitter.com/alfa)
+presented yesterday on [Linuxing in London](http://www.meetup.com/Linuxing-In-London/)
+meetup. The best part, in my opinion, is the benchmark data comparing different
+families of languages in terms of CPU and memory consumption. Swift position in
+this graph is expectedly quite good. The deck also contains a quick introduction
+to IBM's [Kitura](https://github.com/IBM-Swift/Kitura) framework.
+
+### [Swift Optimisation Tips](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)
+
+This document from Swift compiler source repository is not easy to find, but it
+uncovers loads of tips on how to easily optimise your Swift code. Among those
+are recommendations to reduce dynamic dispatch in method declarations when not
+needed, container types optimisations, use of
+[`Unmanaged`](http://swiftdoc.org/v3.0/type/Unmanaged/) and many others.
+
+### [A Beginner's Guide to Understanding Convolutional Neural Networks](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/)
+
+Apple has introduced some improved support for machine learning in its
+platforms at WWDC this year, but it leaves a lot to be desired. While you can run
+inference with neural networks on a device, it takes huge amount of time to set
+up. The provided APIs are very low-level and, as far as I know, none of that
+covers the actual training process. The WWDC
+[session on neural networks](https://developer.apple.com/wwdc16/715) also
+covers only low-level concepts. It is definitely still a long way to go,
+especially when compared to Google's [TensorFlow](https://www.tensorflow.org) machine learning library.
+[Adit Deshpande](https://adeshpande3.github.io) has published probably the
+best introduction to convolutional neural networks I've seen. While the
+article doesn't have any code examples, the basic concepts are explained
+really well, so you can start prototyping some simple neural networks in
+Swift with relatively little effort.
+
+### [Experimenting Server-Side Swift](https://sideeffects.xyz/2016/experimenting-server-side-swift/)
+
+Junior B. published a great article in which he describes his first experience
+with server-side Swift. It covers a short overview of available frameworks,
+basics of using [Vapor](http://qutheory.io) and
+[Redbird Redis library](https://github.com/czechboy0/Redbird). The main goal was
+to write a Hacker News clone, which was then
+[published on GitHub](https://github.com/bontojr/swiftynews).
+
+### [The End of Microservices](http://lightstep.com/blog/the-end-of-microservices/)
+
+This post by [Lightstep](http://twitter.com/lightstephq) is an interesting
+perspective on how microservices will probably go the way of information
+superhighway, colour television and horseless carriages. Some buzzwords go
+away, while the phenomenon itself stays and seems fairly obvious in a hindsight.
+
+### [How I Built an App With 500,000 Users in 5 days on a $100 Server](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83)
+
+Very interesting story about building a service with minimal resources, while
+trying to stay scalable and reliable with a sudden influx of new users.
+
+## Code
+
+### [SourceKit now builds successfully on Linux](https://github.com/apple/swift/pull/3594#issuecomment-234169759)
+
+[JP Simard](https://twitter.com/simjp) submitted two
+[pull](https://github.com/apple/swift/pull/3595)
+[requests](https://github.com/apple/swift/pull/3594), which were merged last week bringing SourceKit to Linux! 🎉
+As I've mentioned in the previous issue, SourceKit plays vital role in developer
+tools, allowing to parse, format and process Swift source code easily.
+SourceKit on Linux means that [SwiftLint](https://github.com/realm/SwiftLint)
+is coming to Linux too!
+
+### [MongoKitten](https://github.com/OpenKitten/MongoKitten)
+
+MongoKitten 1.3.0 was recently tagged. It supports Swift 3.0 and is compatible
+with SwiftPM. This library provides a nice DSL for writing queries and document creation.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Issue #1"
-date:   2016-07-19 19:45:31 +0530
+date:   2016-07-19
 ---
 Hello and welcome to the first issue of Server-Side Swift Newsletter!
 
@@ -10,6 +10,8 @@ I myself was excited when Apple announced that Swift is going to be open-source.
 While main focus will be Swift on Linux, I think it's worth mentioning other related content from time to time, such as Swift on bare metal, backend architecture etc.
 
 I hope you enjoy it and I'm looking forward to your feedback! Give me a shout on [twitter](http://twitter.com/_digital_signal) or just reply to the newsletter email.
+
+<small><i>Max Desiatov</i></small>
 
 ## Links
 
