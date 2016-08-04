@@ -9,7 +9,7 @@ date:   2016-08-04
 ### [Looking Back on Swift 3 and Ahead to Swift 4](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html)
 
 You probably have seen this, but I think some of the points are worth
-highlighting here. The biggest surprise for me was that the refined memory model
+highlighting here. The biggest surprise to me was that the refined memory model
 was scheduled for Swift 4 phase 1, which, after all, does make perfect sense when aligned
 with ABI stabilisation:
 
@@ -43,6 +43,10 @@ still slower than [Zewo](http://www.zewo.io). The part of the talk by Nic covers
 all of the interesting implementation details of protocols in Swift. Ever heard
 of protocol witness tables? Wondered what implications protocols have on performance
 of your Swift code? All explained in this great talk.
+
+**Update:** Qutheory has just published [an article](https://medium.com/@qutheory/vapor-vs-kitura-benchmark-8253fe4a3881#.ny20p2dj0) in which they weren't able to reproduce
+the same results of Vapor vs. Kitura benchmark. I look forward to seeing the
+actual testing methodology used by IBM to get the results of their tests.
 
 ### [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
