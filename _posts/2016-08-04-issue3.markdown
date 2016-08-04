@@ -1,0 +1,102 @@
+---
+layout: post
+title:  "Issue #3"
+date:   2016-08-04
+---
+
+## Links
+
+### [Looking Back on Swift 3 and Ahead to Swift 4](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html)
+
+You probably have seen this, but I think some of the points are worth
+highlighting here. The biggest surprise for me was that the refined memory model
+was scheduled for Swift 4 phase 1, which, after all, does make perfect sense when aligned
+with ABI stabilisation:
+
+> Adding an (opt-in) Cyclone/Rust inspired memory ownership model to Swift is highly desired by systems programmers and folks who want predictable and deterministic performance (for example, in real time audio processing code).  More pertinent to the goals of Swift 4, this feature is important because it fundamentally shapes the ABI.  It informs code generation for “inout", how low-level “addressors” work in the ABI, impacts the Swift runtime, and will have a significant impact on the type system and name mangling.
+
+And, as I mentioned concurrency model in the previous issue:
+
+> First class concurrency: Actors, async/await, atomicity, memory model, and related topics.  This area is highly desired by everyone, as it will open the door for all sorts of new things on the client, server and more.  We plan to start formal *discussions* about this in Phase 2, but it is unfortunately crystal clear that a new concurrency model won’t be done in time for the Swift 4 release.  This is simply because it will take more than a 12 months to design and build, and we want to make sure to take time to do it right.  It also makes sense for the memory ownership model to be better understood before taking this on.
+
+Overall, this is big and great news, which will definitely impact both performance
+and feel of Swift for server-side code. As Swift evolution is proceeding
+in an open way, I will track these proposals closely myself and encourage you to provide
+your feedback on [swift-evolution mailing list](https://swift.org/community/#mailing-lists).
+
+### [Package Manager Support for Differentiating Packages by Swift version](https://github.com/apple/swift-evolution/blob/master/proposals/0135-package-manager-support-for-differentiating-packages-by-swift-version.md)
+
+Surprisingly enough, this proposal is still marked as "Active Review". I haven't seen
+much feedback for it in the mailing list, but it does seem to be quite important
+in the light of source-breaking changes in Swift 3.0 and possibly 3.x and 4.0.
+Check it out and write a short reply on the mailing list to improve its chances
+of being accepted for Swift 3.0!
+
+### [Protocols and Performance](https://www.youtube.com/watch?v=HxY_JwY5Qew&feature=youtu.be&t=1h24m45s)
+
+A fascinating [Swift London](http://www.meetup.com/swiftlondon/) talk about
+performance of Swift on Linux by [Chris Bailey](https://twitter.com/Chris__Bailey)
+and [Nic Jackson](http://nicholasjackson.github.io). Interesting tidbit: Chris
+stated that in their benchmarks [Kitura](https://github.com/IBM-Swift/Kitura)
+was faster than [Express.js](http://expressjs.com) and [Vapor](http://qutheory.io),
+still slower than [Zewo](http://www.zewo.io). The part of the talk by Nic covers
+all of the interesting implementation details of protocols in Swift. Ever heard
+of protocol witness tables? Wondered what implications protocols have on performance
+of your Swift code? All explained in this great talk.
+
+### [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+
+A simple and concise introduction of machine learning
+algorithms. In this first part some basic terminology and decision trees are covered with
+clear visualisation of all data flows.
+
+### [Docker Built-In Orchestration Ready for Production: Docker 1.12 Goes GA](https://blog.docker.com/2016/07/docker-built-in-orchestration-ready-for-production-docker-1-12-goes-ga/)
+
+Docker 1.12 was released last week with built-in container orchestration. While
+this may not be as advanced as [Mesos or Kubernetes](http://stackoverflow.com/questions/26705201/whats-the-difference-between-apaches-mesos-and-googles-kubernetes),
+this is great to get started with container orchestration, especially with a
+nicely implemented [Docker app for Mac](https://www.docker.com/products/docker#/mac)
+being available.
+
+### [LLVM Support for Copy-Pasted Code Detection](https://reviews.llvm.org/rL276782)
+
+> This patch adds the CloneDetector class which allows searching source code
+for clones.
+> For every statement or group of statements within a compound statement,
+CloneDetector computes a hash value, and finds clones by detecting
+identical hash values.
+> This initial patch only provides a simple hashing mechanism
+that hashes the kind of each sub-statement.
+> This patch also adds CloneChecker - a simple static analyzer checker
+that uses CloneDetector to report copy-pasted code.
+
+### [Contributing to Nuclide’s Swift Integration: Why and How](http://modocache.io/contributing-to-nuclide-swift)
+
+In other [Nuclide-related news](https://twitter.com/modocache/status/760119495096733696):
+
+> Autocompletion for #swiftlang is [in Nuclide trunk](https://nuclide.io/docs/languages/swift/).
+Build from source to use it now; official release soon.
+
+### [Enums as Configuration: the Anti-Pattern](http://www.jessesquires.com/enums-as-configs/)
+
+A post by [Jesse Squires](http://www.jessesquires.com) about use of enums in
+Swift for configuration of exposed APIs. While this pattern seems obvious, it's
+not without its drawbacks, not being extensible and flexible in most of the cases.
+The post also provides a good alternative with nice descriptive examples.
+
+## Code
+
+### [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)
+
+Protocol Buffers library that supports both Swift 3.0 and 2.2.
+
+### [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)
+
+SwiftGPIO was recently updated for Swift 3.0.
+
+> This library provides an easy way to interact with digital GPIOs and use SPI interfaces with Swift on Linux. You'll be able to configure a port attributes (direction,edge,active low) and read/write the current GPIO value. And you will also be able to use the SPI interfaces provided by your board or a software big-banging SPI.
+> It's built to run exclusively on Linux ARM Boards (RaspberryPis, BeagleBone Black, UDOO, Tegra, CHIP, etc...) with accessible GPIOs.
+
+## Lastly...
+
+### [Bug Fixing](https://twitter.com/thegrugq/status/758996951882801152) 🐛🔨
