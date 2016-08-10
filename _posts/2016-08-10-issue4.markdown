@@ -37,7 +37,7 @@ would hugely benefit the community.
 
 It looks like yet another Swift Evolution proposal might be accepted for
 Swift 3.0. Is quite late in the development cycle, but the actual proposal is quite important
-in the light promised Swift 4.0 binary compatibility. Here is motivation from the proposal text:
+in the light of promised Swift 4.0 binary compatibility. Here is motivation from the proposal text:
 
 > We only realized very recently that, although Swift 3.0 is not shipping with a stable ABI, the promise that Swift 3.0 code will work with Swift 4.0 means that many of the standard library's protocols will be locked down now. Especially where these protocols show up in refinement hierarchies, we won't be able to keep Swift 3 code working in the future without carrying them forward into future standard library binaries.
 
