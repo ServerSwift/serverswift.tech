@@ -1,0 +1,103 @@
+---
+layout: post
+title:  "Issue #4"
+date:   2016-08-10
+---
+
+While there are definitely some iOS/macOS devs using Swift
+in tasks that aren't directly related to Apple's ecosystem, I wonder how
+many companies are there, looking for people specifically with server-side
+Swift experience or experience with Swift developer tools (compiler,
+SwiftPM etc). Anyone looking for server-side or full-stack Swift developers?
+If so, let me know, I will be happy to publish a link to a related job description
+in the future issues.
+
+In the meantime, [Brian Gesiak](https://twitter.com/modocache) tweeted about
+[vacancies for developers interested in open-source tools](https://twitter.com/modocache/status/763048828455059460).
+
+[<small><i>Max Desiatov</i></small>](https://twitter.com/_digital_signal)
+
+## Links
+
+### [Vapor vs. Kitura Benchmark by Qutheory](https://medium.com/@qutheory/vapor-vs-kitura-benchmark-8253fe4a3881)
+
+In [the previous issue](/2016/08/04/issue3.html) I've mentioned benchmarks done
+by IBM, where they compared performance of Kitura with Vapor. [Qutheory](http://qutheory.io) weren't
+able to reproduce the benchmarks on their hardware as you can see in their post.
+I look forward to seeing comprehensive benchmarks done on various hardware,
+ideally performed on regular basis with visible changes version by version, which
+would hugely benefit the community.
+
+### [Avoiding Lock-In to Legacy Protocol Designs](https://github.com/apple/swift-evolution/blob/master/proposals/0137-avoiding-lock-in.md)
+
+It looks like yet another Swift Evolution proposal might be accepted for
+Swift 3.0. Is quite late in the development cycle, but the actual proposal is quite important
+in the light promised Swift 4.0 binary compatibility. Here is the motivation from the text of the proposal:
+
+> We only realized very recently that, although Swift 3.0 is not shipping with a stable ABI, the promise that Swift 3.0 code will work with Swift 4.0 means that many of the standard library's protocols will be locked down now. Especially where these protocols show up in refinement hierarchies, we won't be able to keep Swift 3 code working in the future without carrying them forward into future standard library binaries.
+
+### [Docker and High Security Microservices](https://youtu.be/346WmxQ5xtk)
+
+Another week, another link to a great talk! This one is by
+[Aaron Grattafiori](https://twitter.com/dyn___) speaking on
+[DockerCon 2016](http://2016.dockercon.com) about impact of microservices on
+systems security. The talk starts with a nice summary of all the drawbacks and
+benefits of monolithic/microservices architectures and proceeds with a list of
+best practices that you would follow when building microservices. While some
+of the examples are Docker-specific, I would say that most of the info is very
+useful to anyone interested in security of backend systems.
+
+### [Package.swift Manual by Marcin Krzyzanowski](http://blog.krzyzanowskim.com/2016/08/09/package-swift-manual/)
+
+[Marcin Krzyzanowski](https://twitter.com/krzyzanowskim) published a quite
+comprehensive page with a description of Package.swift file that's used by
+[Swift Package Manager](https://github.com/apple/swift-package-manager/).
+This is very neat, as I personally find quite hard to get started quickly by
+following just official Apple's documentation on SwiftPM.
+
+### [Purely Functional Linux with NixOS](https://begriffs.com/posts/2016-08-08-intro-to-nixos.html)
+
+This talk by [Ian-Woo Kim](https://github.com/wavewave) uses a Haskell
+cross-compiler as an example, but I think that the whole concept is very
+interesting and I will definitely try [NixOS](http://nixos.org) myself:
+
+> Imagine a Linux where you can test and roll back configuration changes, where multiple versions of the same library or application can live in harmony, and where the full state of the system is recorded declaratively. As any promotional paragraph beginning with “imagine” implies, this thing exists: NixOS
+
+### [Image Kernels](http://setosa.io/ev/image-kernels/)
+
+I think machine learning and computer vision (and the rest of the things
+labelled as AI these days) are going to be very powerful in cloud applications.
+If not focused solely on cloud, augmenting front-end ML code is as important.
+Thus I continue picking some of the links that provide gentle introduction to
+these topics.
+
+Meanwhile, [Perfect](https://twitter.com/perfectlysoft) is
+already used in an [app that utilises computer vision](https://twitter.com/perfectlysoft/status/759015292307550208).
+
+## Code
+
+### [Quark](https://github.com/QuarkX/Quark)
+
+Finding this was quite a surprise for me, as it isn't published under [Zewo's
+GitHub organisation](https://github.com/Zewo), while it references Zewo's
+Slack team on its README page. So far it looks very promising:
+
+>Quark is a framework heavily inspired by the Clean Architecture and The Twelve-Factor App. We believe that frameworks should do their best to make the developer's life easier while maintaining freedom. Applications built with Quark are architected in a way that the business logic is separated from the delivery mechanism (the web). This provides longevity for your application to evolve as the web evolves and incorporate new ways to deliver your application (real-time web apps for example). Quark's architecture also allows you to test your business logic with no dependencies on the web or the database. You can have integration tests without booting up a server too.
+
+### [Telegram Bot SDK for Swift](https://github.com/zmeyc/telegram-bot-swift)
+
+A library by [Andrey Fidrya](https://github.com/zmeyc) that helps in creation
+of [Telegram](https://telegram.org) bots in Swift. It provides some extensive
+documentation and supports Swift 3.
+
+### [Server Side Swift Starter Template](https://github.com/jayfk/server-side-swift-starter)
+
+A template by [Jannis Gebauer](https://github.com/jayfk) that has
+[Kitura](https://github.com/IBM-Swift/Kitura) and
+[SwiftMongoDB](https://github.com/Danappelxx/SwiftMongoDB) set up with
+clean and simple example code and documentation that describes how to get things
+running.
+
+## Lastly...
+
+### [Cost of Creating a Website According to Fortune in May 1995](https://twitter.com/brianmcc/status/763126106140598277) 💰

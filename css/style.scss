@@ -349,6 +349,13 @@ pre {
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+
+.site-logo {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
 .site-title {
   font-size: 56px;
   font-weight: 100;
@@ -356,11 +363,11 @@ pre {
   text-transform: capitalize;
   font-weight: 500;
 
-  margin-top: 0.5em;
+  margin-top: 0.25em;
 
   @include media-query($on-palm) {
-    margin-top: 0.25em;
     line-height: normal;
+    font-size:42px;
   }
 
   &,
