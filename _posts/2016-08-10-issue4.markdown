@@ -28,7 +28,7 @@ email client. 😀
 
 In [the previous issue](/2016/08/04/issue3.html) I've mentioned benchmarks done
 by IBM, where they compared performance of Kitura with Vapor. [Qutheory](http://qutheory.io) weren't
-able to reproduce the benchmarks on their hardware as you can see in their post.
+able to reproduce the benchmarks on their hardware as you can see from their post.
 I look forward to seeing comprehensive benchmarks done on various hardware,
 ideally performed on regular basis with visible changes version by version, which
 would hugely benefit the community.
