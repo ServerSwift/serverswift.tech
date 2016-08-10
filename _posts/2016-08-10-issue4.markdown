@@ -15,6 +15,11 @@ in the future issues.
 In the meantime, [Brian Gesiak](https://twitter.com/modocache) tweeted about
 [vacancies for developers interested in open-source tools](https://twitter.com/modocache/status/763048828455059460).
 
+Also, if you're reading this on [the website](http://www.serverswift.tech),
+you can see our new logo produced by [Alex Sleepy](https://twitter.com/AlexSleepy).
+I hope you can see it in the email as well, depending on the settings of your
+email client. 😀
+
 [<small><i>Max Desiatov</i></small>](https://twitter.com/_digital_signal)
 
 ## Links
