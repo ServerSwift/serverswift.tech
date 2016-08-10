@@ -83,7 +83,7 @@ already used in an [app that utilises computer vision](https://twitter.com/perfe
 
 ### [Quark](https://github.com/QuarkX/Quark)
 
-Finding this was quite a surprise for me, as it isn't published under [Zewo's
+Finding this was quite a surprise to me, as it isn't published under [Zewo's
 GitHub organisation](https://github.com/Zewo), while it references Zewo's
 Slack team on its README page. So far it looks very promising:
 
