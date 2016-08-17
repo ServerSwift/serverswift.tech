@@ -91,6 +91,6 @@ An example Slack Bot application built with Vapor in Swift.
 
 > Swift APNS client built by wrapping libcurl's easy interface.
 
-### Lastly...
+## Lastly...
 
-- [The Ultimate Trolley Problem](https://mobile.twitter.com/peterkz_swe/status/764772570344353792) 😈
+### [The Ultimate Trolley Problem](https://mobile.twitter.com/peterkz_swe/status/764772570344353792) 😈
