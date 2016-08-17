@@ -18,8 +18,8 @@ to mid-September iOS 10.0 GM release. Today Preview 6 for Linux also became
 
 A presentation by [Tanner Nelson](https://twitter.com/tanner0101) and
 [Logan Wright](https://twitter.com/LogMaestro) at the Apple Campus about
-[Vapor](http://vapor.codes) framework. This talk starts with some nice
-introduction to Vapor and has an overview of different modules and some
+[Vapor](http://vapor.codes) framework. This talk starts with nice
+introduction to Vapor and has an overview of different modules and
 sample code that covers basics of working with different protocols,
 ORM usage, JSON (de)serialisation and server setup.
 
@@ -54,8 +54,8 @@ what's available on the market.
 ### [Swift on the Server – Where Are We Today?](https://stormpath.com/blog/swift-on-the-server-today)
 
 A quite comprehensive write-up by [Edward Jiang](https://twitter.com/EdwardStarcraft)
-about most popular server-side Swift frameworks. It also contains some sample
-code for each of the frameworks, so that you can get some basic understanding
+about most popular server-side Swift frameworks. It also contains sample
+code for each of the frameworks, so that you can get basic understanding
 of what feels like to use those.
 
 ### [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
