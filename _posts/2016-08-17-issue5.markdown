@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Issue #5"
+date:   2016-08-17
+---
+
+Xcode 8 beta 6 was released with what looks like near final versions of
+Swift 3.0 and SwiftPM. Based on the past years, the beta released one month
+before the GM iOS release is the last one. And so far, all the rumours point
+to mid-September iOS 10.0 GM release. Today Preview 6 for Linux also became
+[available](https://swift.org/download).
+
+[<small><i>Max Desiatov</i></small>](https://twitter.com/_digital_signal)
+
+## Links
+
+### [An Introduction to Vapor at Apple](https://youtu.be/G_dUwkhZst0)
+
+A presentation by [Tanner Nelson](https://twitter.com/tanner0101) and
+[Logan Wright](https://twitter.com/LogMaestro) at the Apple Campus about
+[Vapor](http://vapor.codes) framework. This talk starts with some nice
+introduction to Vapor and has an overview of different modules and some
+sample code that covers basics of working with different protocols,
+ORM usage, JSON (de)serialisation and server setup.
+
+### [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
+
+Of all the languages, I consider Rust the closest to Swift in terms of syntax
+and overall area of applications. Well, even
+[Chris Lattner mentions Rust](https://mobile.twitter.com/BrendanEich/status/473943219487514625) as
+the second in the list of inspirations for Swift (just after Objective-C).
+Now is an interesting inflection point, as Rust transitions from old green
+threads implementation to the new futures library, while Swift is going to
+consider better support for asynchronous code in the current Swift 4/5
+development timeframe. I think, learning from evolution of Rust is very useful
+in this perspective, and that's why I highly recommend checking out this article
+by [Aaron Turon](https://twitter.com/aaron_turon).
+
+### [Why we Moved From Amazon Web Services to Google Cloud Platform?](https://lugassy.net/why-we-moved-from-amazon-web-services-to-google-cloud-platform-726c412fd667)
+
+In the stats published by [The Macro](http://www.themacro.com/articles/2016/08/yc-tech-stacks/)
+recently, of the [YC](https://www.ycombinator.com) companies that use hosting
+providers, 55% use [AWS](https://aws.amazon.com), 13% use
+[Cloudflare](https://www.cloudflare.com) and 6% use
+[Rackspace](http://rackspace.com). Interestingly enough,
+[GCP](https://cloud.google.com) is not mentioned at all. I myself used AWS for
+a while now and started considering and exploring GCP quite recently. Overall,
+I agree with most points of the article by [Michael Lugassy](https://twitter.com/mluggy),
+and so far GCP seems to be slightly less confusing in overall product structure,
+and its console has much better UX. Obviously, this doesn't mean you have to
+migrate yourself, but this article is great in giving better understanding of
+what's available on the market.
+
+### [Swift on the Server – Where Are We Today?](https://stormpath.com/blog/swift-on-the-server-today)
+
+A quite comprehensive write-up by [Edward Jiang](https://twitter.com/EdwardStarcraft)
+about most popular server-side Swift frameworks. It also contains some sample
+code for each of the frameworks, so that you can get some basic understanding
+of what feels like to use those.
+
+### [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
+
+A must read article from [Felix Gessert](https://medium.baqend.com/@felix.gessert)
+on NoSQL databases. The article doesn't compare specific implementations,
+but attempts to classify some of the different flavours. It also provides a
+nice overview of consistency-availability trade-offs and how these are most
+commonly resolved.
+
+### [Benchmarks for a number of Swift JSON Frameworks](https://github.com/vdka/JSONBenchmarks/)
+
+A comparison of JSON libraries performance by [Ethan Jackwitz](https://twitter.com/ejackwitz).
+
+### [Book Recommendations for the Infrastructure Engineer](https://github.com/stack72/ops-books)
+
+A list by [Paul Stack](https://twitter.com/stack72):
+
+> This is a repo that lists the books I got recommended since moving more
+> into the operations / infrastructure world. It lists the titles that relate to Continuous Delivery, DevOps, Operations and Systems Thinking
+
+## Code
+
+### [Turnstile](https://github.com/stormpath/Turnstile)
+
+> Turnstile is a security framework for Swift inspired by [Apache Shiro](http://shiro.apache.org). It's used to manage the currently executing user account in your application, whether iOS app or backend web application.
+
+### [slack-bot](https://github.com/vapor/slack-bot)
+
+An example Slack Bot application built with Vapor in Swift.
+
+### [EasyAPNS](https://github.com/osjup/EasyAPNS)
+
+> Swift APNS client built by wrapping libcurl's easy interface.
+
+### Lastly...
+
+- [The Ultimate Trolley Problem](https://mobile.twitter.com/peterkz_swe/status/764772570344353792) 😈
