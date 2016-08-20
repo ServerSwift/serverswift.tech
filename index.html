@@ -3,26 +3,24 @@ layout: default
 ---
 
 <div class="home">
-
   {% for post in site.posts%}
-  <div class="post postContent">
-    <div class="post-header">
-      <div class="postDate">
-        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </time>
+    <div class="post postContent">
+      <div class="post-header">
+        <div class="postDate">
+          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </time>
+        </div>
+        <br>
+        <center>
+        <div class="postTitle">
+          <a class='postLink' href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        </div>
+      </center>
       </div>
-      <br>
-      <div class="postTitle">
-        <a class='postLink' href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+      <div class="post-content">
+        {{ post.content }}
       </div>
     </div>
-    <div class="postExt">
-      {{ post.content }}
-    </div>
-  </div>
-
-
   {% endfor %}
-
 </div>

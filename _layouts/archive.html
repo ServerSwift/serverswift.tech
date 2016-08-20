@@ -4,15 +4,15 @@ layout: page
 
 {% for post in site.posts %}
 
-<div class="post-header">
+<div class="archive-item">
   <div class="postTitle">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+    <a class='postLink' href="{{site.baseurl}}{{post.url}}">
       {{post.title}}
     </a>
   </div>
 
   <div class="postDate">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+    <a class='postLink' href="{{site.baseurl}}{{post.url}}">
       <time datetime="{{ post.date | date_to_xmlschema }}"
             itemprop="datePublished">
         {{ post.date | date: "%b %-d, %Y" }}
