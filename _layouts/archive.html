@@ -3,24 +3,22 @@ layout: page
 ---
 
 {% for post in site.posts %}
-{% for cat in post.categories %}
-{% if cat == page.category %}
 
-<div class="post postContent">
-  <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-  </div>
-  <div class="postDay">
-    {{post.tag}}
-  </div>
-  <br>
+<div class="post-header">
   <div class="postTitle">
-  <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+      {{post.title}}
+    </a>
   </div>
-  <div class="postExt">
-    {{post.excerpt}}
+
+  <div class="postDate">
+    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+      <time datetime="{{ post.date | date_to_xmlschema }}"
+            itemprop="datePublished">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </time>
+    </a>
   </div>
 </div>
-{% endif %}
-{% endfor %}
 
 {% endfor %}

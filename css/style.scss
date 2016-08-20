@@ -269,9 +269,11 @@ pre {
   font-weight: 300;
   padding-top: 0;
 }
-.home{
+
+.home {
   padding-bottom: 2em;
 }
+
 .download {
   padding: 10px;
 }
@@ -287,6 +289,7 @@ pre {
   text-indent: 0;
   text-transform: uppercase;
 }
+
 .archive-intro {
   font-size: 14px;
   text-transform: uppercase;
@@ -312,13 +315,16 @@ pre {
   letter-spacing: 2px;
   text-indent: 2px;
 }
+
 .postContent {
+  overflow: hidden;
   padding-top: 2em;
 
   @include media-query($on-palm) {
     padding-top: 1em;
   }
 }
+
 .postDate {
   float: left;
   text-transform: uppercase;
@@ -327,17 +333,16 @@ pre {
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
+  margin-left: 10px;
 }
-.postTag {
-  float: right;
-}
+
 .postTitle {
+  display: inline-block;
   font-weight: 400;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-indent: 3px;
-  margin-bottom: 15px
+  margin-left: 10px;
 }
 /**
  * Site header
@@ -538,9 +543,11 @@ pre {
 .page-content {
   padding: 0;
 }
+
 .page-heading {
   font-size: 20px;
 }
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -548,12 +555,14 @@ pre {
     margin-bottom: $spacing-unit;
   }
 }
+
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
   text-transform: uppercase;
   font-size: 16px;
 }
+
 .post-link {
   display: block;
   font-size: 24px;
@@ -563,10 +572,13 @@ pre {
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
 }
+
 .post-title {
   font-size: 36px;
-
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
@@ -576,7 +588,6 @@ pre {
 }
 .post-content {
   margin-bottom: $spacing-unit;
-  padding-bottom: 3em !important;
   p {
     font-size: 1.25rem;
 
