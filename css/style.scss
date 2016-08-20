@@ -359,6 +359,10 @@ pre {
   display: block;
   width: 120px;
   height: 120px;
+  @include media-query($on-palm) {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .site-title {
@@ -372,7 +376,7 @@ pre {
 
   @include media-query($on-palm) {
     line-height: normal;
-    font-size:42px;
+    font-size:36px;
   }
 
   &,
@@ -383,6 +387,10 @@ pre {
 .site-description {
   center {
     font-size: 24px;
+
+    @include media-query($on-palm) {
+      font-size: 18px;
+    }
   }
 
   font-size: 14px;
@@ -404,6 +412,10 @@ pre {
   font-family: 'Josefin Sans';
   font-weight: 300;
   padding-top: 2em;
+
+  @include media-query($on-palm) {
+    padding-top: 0.7em;
+  }
 }
 
 .page-title {
@@ -704,17 +716,19 @@ pre {
   @include media-query($on-palm) {
     .mc-field-group {
       display: block;
-      max-width: 100%;
-      padding-right: 6px;
+      width: 100%;
+      padding-right: 25px;
     }
+
     #mce-EMAIL {
       padding: .7em 0 .7em 1em;
-      width: 96%;
+      width: 100%;
+      min-width: 0;
       margin: 0;
     }
     .button {
       width: 100%;
-      margin: .7em .5em .5em 1.3em;
+      margin: .7em 0 .5em 0.4em;
     }
   }
 
