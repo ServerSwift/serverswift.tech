@@ -394,6 +394,7 @@ pre {
   padding-left: 2em;
   padding-right: 2em;
 }
+
 .site-navigation {
   color: #aaa;
   text-transform: uppercase;
@@ -404,6 +405,7 @@ pre {
   font-weight: 300;
   padding-top: 2em;
 }
+
 .page-title {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -418,60 +420,11 @@ pre {
   text-align: center;
   text-transform: lowercase;
 }
+
 .page-link {
   color: rgb(170, 170, 170);
 }
-.site-nav {
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-      > svg {
-        width: 18px;
-        height: 15px;
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-    .trigger {
-      clear: both;
-      display: none;
-    }
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-  }
-}
+
 /**
  * Site footer
  */
@@ -703,11 +656,17 @@ pre {
   width: 100%;
   margin-bottom: 1em;
 
-  .mc-field-group { display: inline-block; } /* positions input field horizontally */
+  #mc_embed_signup_scroll {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
   #mce-EMAIL {
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    min-width: 250px;
+    min-width: 280px;
     font-size: 1.15em;
     border: 2px solid #ABB0B2;
     color: #343434;
@@ -720,8 +679,6 @@ pre {
     margin: 0;
   } /* Input Styles */
 
-  .clear { display: inline-block; } /* positions button horizontally in line with input */
-
   .button {
     font-family: 'PT Sans', Helvetica,  Arial, sans-serif;
     font-size: 1.15em;
@@ -733,8 +690,10 @@ pre {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    display: inline-block;
-    margin: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
   } /* Button Styles */
 
   :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */
@@ -753,8 +712,10 @@ pre {
       width: 96%;
       margin: 0;
     }
-    .clear { display: block; width: 100% }
-    .button { width: 100%; margin: .5em 0 0 0; }
+    .button {
+      width: 100%;
+      margin: .7em .5em .5em 1.3em;
+    }
   }
 
   input, textarea {
