@@ -333,7 +333,6 @@ pre {
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
-  margin-left: 10px;
 }
 
 .postTitle {
@@ -342,7 +341,6 @@ pre {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-indent: 3px;
-  margin-left: 10px;
 }
 /**
  * Site header
@@ -398,23 +396,41 @@ pre {
   text-indent: 6px;
   font-family: 'Josefin Sans';
 }
-.exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+
+.navigation {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.social-pages {
+  .fa {
+    margin-right: 10px;
+
+    @include media-query($on-palm) {
+      margin-right: 5px;
+    }
+
+    font-size: 24px;
+  }
+  a {
+    border-bottom: none;
+  }
 }
 
 .site-navigation {
-  color: #aaa;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
   text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 2px;
-  text-indent: 6px;
-  font-family: 'Josefin Sans';
-  font-weight: 300;
-  padding-top: 2em;
 
   @include media-query($on-palm) {
-    padding-top: 0.7em;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
   }
 }
 
@@ -495,6 +511,7 @@ pre {
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
+
 @include media-query($on-palm) {
   .footer-col {
     float: none;
@@ -541,9 +558,13 @@ pre {
 
 .archive-item {
   margin-bottom: $spacing-unit;
-  align-items: flex-end;
+  align-items: baseline;
   display: flex;
   flex-direction: row;
+
+  .postDate {
+    margin-left: 10px;
+  }
 }
 
 .post-title {
@@ -663,6 +684,12 @@ pre {
 }
 
 #mc_embed_signup {
+  padding-top: 2em;
+
+  @include media-query($on-palm) {
+    padding-top: 0.7em;
+  }
+
   border: none;
   text-align: center;
   width: 100%;
@@ -728,7 +755,7 @@ pre {
     }
     .button {
       width: 100%;
-      margin: .7em 0 .5em 0.4em;
+      margin: .7em .2em .5em 0em;
     }
   }
 
