@@ -453,11 +453,26 @@ pre {
   color: rgb(170, 170, 170);
 }
 
+.button {
+  font-family: 'PT Sans', Helvetica,  Arial, sans-serif;
+  font-size: 1.15em;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #2386C8 ;
+  padding: .7em 2em;
+  border: 2px solid #2386C8 ;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+} /* Button Styles */
+
 /**
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 .footer-heading {
@@ -519,6 +534,25 @@ pre {
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
+
+.issue-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  .button {
+    font-size: 0.9em;
+
+    @include media-query($on-palm) {
+      font-size: 0.7em;
+    }
+  }
+
+  a {
+    border-bottom: none;
+  }
+}
+
 /**
  * Page content
  */
@@ -560,7 +594,6 @@ pre {
   margin-bottom: $spacing-unit;
   align-items: baseline;
   display: flex;
-  flex-direction: row;
 
   .postDate {
     margin-left: 10px;
@@ -686,6 +719,10 @@ pre {
 #mc_embed_signup {
   padding-top: 2em;
 
+  .button {
+    margin-left: 10px;
+  }
+
   @include media-query($on-palm) {
     padding-top: 0.7em;
   }
@@ -717,23 +754,6 @@ pre {
     display: inline-block;
     margin: 0;
   } /* Input Styles */
-
-  .button {
-    font-family: 'PT Sans', Helvetica,  Arial, sans-serif;
-    font-size: 1.15em;
-    letter-spacing: .03em;
-    color: #fff;
-    background-color: #2386C8 ;
-    padding: .7em 2em;
-    border: 2px solid #2386C8 ;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    margin-left: 10px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-  } /* Button Styles */
 
   :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */
   :-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */

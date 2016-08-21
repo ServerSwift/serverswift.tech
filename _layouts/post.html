@@ -20,4 +20,20 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="issue-navigation">
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}">
+        <div class="button">
+          &lt; Previous Issue
+        </div>
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{page.next.url}}">
+        <div class="button">
+          Next Issue &gt;
+        </div>
+      </a>
+    {% endif %}
+  </div>
 </article>

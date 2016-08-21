@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  {% for post in site.posts%}
+  {% for post in site.posts limit:1 %}
     <div class="post postContent">
       <div class="post-header">
         <div class="postDate">
@@ -21,6 +21,15 @@ layout: default
       <div class="post-content">
         {{ post.content }}
       </div>
+    </div>
+    <div class="issue-navigation">
+      {% if post.previous.url %}
+        <a class="prev" href="{{post.previous.url}}">
+          <div class="previous-issue button">
+            &lt; Previous Issue
+          </div>
+        </a>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
