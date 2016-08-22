@@ -19,6 +19,13 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+    
+  <div class="shares">
+    <h2>Share this Issue</h2>
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{site.url | url_encode}}{{page.url | url_encode}}">Facebook</a>
+    <a target="_blank" href="https://twitter.com/intent/tweet?original_referer={{site.url | url_encode}}{{page.url | url_encode}}&text={{site.title | url_encode}}%20{{page.title | url_encode}}&url={{site.url | url_encode}}{{page.url | url_encode}}">Twitter</a>
+    <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{site.url | url_encode}}{{page.url | url_encode}}">LinkedIn</a>
+  </div>
 
   <div class="issue-navigation">
     {% if page.previous.url %}
