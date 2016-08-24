@@ -16,7 +16,7 @@ A post by [Daniel Dunbar](https://twitter.com/daniel_dunbar):
 
 ### [Swift Snapshots on Linux Now Contain Dispatch](https://twitter.com/Chris__Bailey/status/768379960876789760)
 
-[This is the commit](https://github.com/apple/swift-corelibs-foundation/commit/45b80aba2f7a65aa2faed7d0818eac479478a3a7) that merges the build option to [Foundation](https://github.com/apple/swift-corelibs-foundation) master. In other Foundation-related news [NSURLSession also was merged](https://github.com/apple/swift-corelibs-foundation/commit/c26f465e9af0fd4de729d746355a25c4eb52f899) recently.
+[This is the commit](https://github.com/apple/swift-corelibs-foundation/commit/45b80aba2f7a65aa2faed7d0818eac479478a3a7) that merges the build option to [Foundation](https://github.com/apple/swift-corelibs-foundation) master. In other Foundation-related news [NSURLSession was also merged](https://github.com/apple/swift-corelibs-foundation/commit/c26f465e9af0fd4de729d746355a25c4eb52f899) recently.
 
 ### [The Perfect web framework community is now on Slack](https://twitter.com/perfectlysoft/status/767824520367529985)
 
@@ -34,9 +34,26 @@ using, unsurprisingly, [Apex](https://github.com/apex/apex) by TJ Holowaychuk.
 
 ### [Swift for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rlovelett.vscode-swift-language)
 
+This plugin for [Visual Studio Code](https://code.visualstudio.com) by
+[Ryan Lovelett](https://twitter.com/rlovelett) supports
+completion lists, symbol resolution and potentially much more in the future.
+[SourceKitten](https://github.com/jpsim/SourceKitten) is a dependency, so no
+native Linux support for now, but you can track a corresponding
+[SourceKitten PR](https://github.com/jpsim/SourceKitten/pull/223).
+
 ### [Dependencies of Your SwiftPM Packages as a Service](https://github.com/czechboy0/swiftpm-dependency-fetcher)
 
+[Honza Dvorsky](https://twitter.com/czechboy0) has published a service that
+can build a dependencies graph of any SwiftPM package. There is a variety of
+possible output formats and renderings, and it provides a simple
+[web interface](http://swiftpm-deps.honza.tech/web).
+
 ### [How AI and Machine Learning Work at Apple](https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b#.8n964ngfw)
+
+An in-depth article about Apple's AI/ML cloud & services initiatives. Some
+of those services have substantial machine learning-related computations running
+on client devices, but obviously server-side is more interesting to us. 😉
+When will be Siri rewritten in Swift? 🤔
 
 ## Code
 
