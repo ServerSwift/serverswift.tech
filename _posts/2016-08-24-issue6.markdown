@@ -82,4 +82,4 @@ up ownership of the code.
 
 ## Lastly...
 
-[Software Engineer Cheat Sheet](http://thecooperreview.com/software-engineer-cheat-sheet/)
+### [Software Engineer Cheat Sheet](http://thecooperreview.com/software-engineer-cheat-sheet/)
