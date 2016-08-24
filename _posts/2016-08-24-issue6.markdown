@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Issue #6"
+date:   2016-08-24
+---
+
+## Links
+
+### [Swift Package Manager 3.0 Project Status](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160815/026411.html)
+
+A post by [Daniel Dunbar](https://twitter.com/daniel_dunbar):
+
+> Since release, we have seen a rapid explosion in the package ecosystem with brand new Swift-based web frameworks (like Kitura, Perfect, Vapor, and Zewo), tooling and infrastructure (like the IBM Package Catalog and swiftenv), or simply adoption by existing popular Swift frameworks (like Alamofire, SnapKit, SwiftJSON, and RxSwift).
+
+>We wanted to lay out our plans for the package manager with regard to the upcoming Swift 3.0 release, some project status, and a bit about our future directions...
+
+### [Swift Snapshots on Linux Now Contain Dispatch](https://twitter.com/Chris__Bailey/status/768379960876789760)
+
+[This is the commit](https://github.com/apple/swift-corelibs-foundation/commit/45b80aba2f7a65aa2faed7d0818eac479478a3a7) that merges the build option to [Foundation](https://github.com/apple/swift-corelibs-foundation) master. In other Foundation-related news [NSURLSession also was merged](https://github.com/apple/swift-corelibs-foundation/commit/c26f465e9af0fd4de729d746355a25c4eb52f899) recently.
+
+### [The Perfect web framework community is now on Slack](https://twitter.com/perfectlysoft/status/767824520367529985)
+
+In addition to [Qutheory](http://slack.qutheory.io), [Zewo](http://slack.zewo.io) and [SwiftPM](https://swift-package-manager.herokuapp.com) [Slack](https://slack.com) teams, [Perfect](https://www.perfect.org) have got one as well.
+
+### [Do’s and Don’ts of AWS Lambda](https://medium.com/@tjholowaychuk/dos-and-don-ts-of-aws-lambda-7dfcab7ad115#.4b5urcqlz)
+
+An article by [TJ Holowaychuk](https://twitter.com/tjholowaychuk) about his
+experience with [AWS Lambda](https://aws.amazon.com/lambda/). In my opinion,
+a lot of the points from the article are easily
+applicable to other serverless cloud services in general. In related news
+[Paulo Faria](https://twitter.com/paulofariarl) has recently got
+[Swift running on AWS Lambda](https://zewo.slack.com/archives/general/p1471373450000994)
+using, unsurprisingly, [Apex](https://github.com/apex/apex) by TJ Holowaychuk.
+
+### [Swift for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=rlovelett.vscode-swift-language)
+
+### [Dependencies of Your SwiftPM Packages as a Service](https://github.com/czechboy0/swiftpm-dependency-fetcher)
+
+### [How AI and Machine Learning Work at Apple](https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b#.8n964ngfw)
+
+## Code
+
+### [Aphid](https://github.com/IBM-Swift/Aphid)
+
+A lightweight [MQTT](http://mqtt.org/) 3.1.1 client written in pure Swift 3 from
+[IBM Swift](https://github.com/IBM-Swift) team.
+
+### [LangKit](https://github.com/rxwei/LangKit)
+
+Natural Language Processing toolkit for Swift. Unfortunately, this is marked
+as "will not be updated". There are plenty of useful algorithms
+implemented in the repository, so I hope that someone in Swift community will pick
+up ownership of the code.
+
+### [ZWeatherServer](https://github.com/CaryZheng/ZWeatherServer)
+
+> A weather server based on Vapor
+
+### [Slimane](https://github.com/noppoMan/slimane)
+
+> Slimane is an express inspired web framework for Swift that works on macOS and Ubuntu.<br/>
+>•	100% Asynchronous<br/>
+>•	Unopinionated and Minimalist<br/>
+>•	Adopts [Open Swift](https://github.com/open-swift)
+
+## Lastly...
+
+[Software Engineer Cheat Sheet](http://thecooperreview.com/software-engineer-cheat-sheet/)
