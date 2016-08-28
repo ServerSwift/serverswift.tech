@@ -1,5 +1,22 @@
 {
   "hosting": {
-    "public": "_site"
+    "public": "_site",
+    "redirects": [ {
+      "source" : "/s",
+      "destination" : "/?utm_source=slack&utm_medium=profilepage",
+      "type" : 301
+    }, {
+      "source" : "/t",
+      "destination" : "/?utm_source=twitter&utm_medium=profilepage",
+      "type" : 301
+    }, {
+      "source" : "/l",
+      "destination" : "/?utm_source=linkedin&utm_medium=profilepage",
+      "type" : 301
+    }, {
+      "source" : "/f",
+      "destination" : "/?utm_source=facebook&utm_medium=profilepage",
+      "type" : 301
+    } ]
   }
 }
