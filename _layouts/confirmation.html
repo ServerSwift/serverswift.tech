@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper">
+      <center>
+        <a href="/index.html">
+          <div class="site-title">
+            <img class="site-logo"
+                 src="/server-side-swift-logo-01.png"
+                 alt="Server-Side Swift Newsletter logo" />
+            {{site.title}}
+          </div>
+        </a>
+      </center>
+    </div>
+    <div class="wrapper site-description">
+      <center>
+        {{site.description}}
+      </center>
+    </div>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="social-pages">
+          <a href="https://feeds.feedburner.com/ServerSideSwift">
+            <i class="fa fa-rss-square"></i>
+          </a>
+          <a href="https://twitter.com/ServerSideSwift">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://www.facebook.com/ServerSideSwift">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+        </div>
+
+        <div class="site-navigation">
+          <a href="/">Latest Issue</a><a href="/archive">Archive</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="confirmation">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
