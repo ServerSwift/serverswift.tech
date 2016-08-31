@@ -1,0 +1,120 @@
+---
+layout: post
+title:  "Issue #6"
+date:   2016-08-24
+---
+
+## Links
+
+### [Benchmarks for the Top Server-Side Swift Frameworks vs. Node.js](https://medium.com/@rymcol/benchmarks-for-the-top-server-side-swift-frameworks-vs-node-js-24460cfe0beb)
+
+Currently, in my opinion, it's the most comprehensive benchmark of server-side
+Swift frameworks, published by
+[Ryan Collins](https://twitter.com/rymcol). Most importantly, it also features
+memory-related metrics that are as crucial as the raw [RPS](https://en.wikipedia.org/wiki/Web_server#requests_per_second) power.
+
+### [A (Mostly) Comprehensive List of Swift 3.0 and 2.3 Changes](https://buildingvts.com/a-mostly-comprehensive-list-of-swift-3-0-and-2-3-changes-193b904bb5b1)
+
+[Hesham Salman](https://twitter.com/WhatsASoftware) has written a pretty nice
+list of changes coming in the new Swift version that will be released,
+most probably, next month. It also contains code listings with "before" and "after" versions.
+
+### [Perfect: Getting Started From Scratch](https://github.com/PerfectlySoft/PerfectDocs/blob/master/guide/gettingStartedFromScratch.md)
+
+[Perfect](https://www.perfect.org) recently published a concise and useful
+step-by-step tutorial for its web framework.
+
+### [CloudKit Tutorial: Getting Started](https://www.raywenderlich.com/134694/cloudkit-tutorial-getting-started)
+
+A tutorial by [Ed Sasena](https://twitter.com/AnrosApps) for Apple's CloudKit.
+While CloudKit isn't as powerful as some other popular cloud storage solutions,
+it's main benefit, in my opinion, are pretty generous [free tier limits](https://developer.apple.com/icloud/) which
+are quite hard to exceed for most of the simple apps. Recently CloudKit also
+became usable on server-side with [CloudKit Web Services](https://developer.apple.com/library/ios/documentation/DataManagement/Conceptual/CloutKitWebServicesReference/Introduction/Introduction.html).
+
+### [Strings in Swift 3](https://oleb.net/blog/2016/08/swift-3-strings/)
+
+An article by [Airspeed Velocity](https://twitter.com/airspeedswift), updated
+by [Ole Begemann](https://twitter.com/olebegemann) and
+[Chris Eidhof](https://twitter.com/chriseidhof) for Swift 3. Although I've read
+the previous version, it was worth reading it again as a refresher for mechanics
+of Swift strings, especially in the light of small, but important changes
+coming in Swift 3.0.
+
+### [SwiftPM Xcode Integration Improvements](https://twitter.com/_bhargavg/status/770326614597001216)
+
+[Bhargav Gurlanka](https://twitter.com/_bhargavg) implemented a
+[change](https://github.com/apple/swift-package-manager/pull/595) that makes
+SwiftPM/Xcode integration much more usable.
+
+### [The “Hello World” of Neural Networks](http://matthijshollemans.com/2016/08/24/neural-network-hello-world/)
+
+While code in this article by [Matthijs Hollemans](https://twitter.com/mhollemans) runs only on iOS and macOS, it's one of the not so
+many machine learning introductions written specifically in Swift. The only
+iOS/macOS dependency in the article's code is
+[Accelerate](https://developer.apple.com/library/ios/documentation/Accelerate/Reference/AccelerateFWRef/index.html),
+and I look forward to
+[Swift-AI](https://github.com/collinhundley/Swift-AI) becoming Linux-compatible,
+so that Accelerate code can be replaced in a Linux port.
+
+### [Values and Errors](https://www.cocoawithlove.com/blog/2016/08/21/result-types-part-one.html)
+
+An overview by [Matt Gallagher](https://twitter.com/cocoawithlove) of a most common pattern in Swift error handling that, surprisingly
+enough, still isn't included in the Swift's standard library: `Result` type.
+[Part 2](https://www.cocoawithlove.com/blog/2016/08/23/result-types-part-two.html)
+compares Swift's error handling with different implementations in other languages.
+
+## Code
+
+### [Perfect - FileMaker Server Connector](https://github.com/PerfectlySoft/Perfect-FileMaker)
+
+Remember [FileMaker](https://en.wikipedia.org/wiki/FileMaker)? Now you can integrate
+it with apps written in Swift.
+
+>This project provides access to FileMaker Server databases using the XML Web publishing interface.
+>This package builds with Swift Package Manager and is part of the Perfect project. It was written to be stand-alone and so does not need to be run as part of a Perfect server application.
+
+### [Trill Programming Language](https://github.com/harlanhaskins/trill)
+
+Published by [Harlan Haskins](https://github.com/harlanhaskins), this is a very
+interesting package to explore if you're interested in language and compiler
+design. Interestingly enough, it has both LLVM and JavaScript backends.
+
+> Trill is a simple, type-safe, compiled programming language. Partially inspired by Swift, Trill has most simple language features one would expect (functions, structures, pointers) and some more high-level language features, like types with methods, garbage collected types, overloading, tuples/multiple returns, and closures.
+
+### [SwiftFormat - Swift Code Formatting](https://github.com/nicklockwood/SwiftFormat)
+
+A tool by [Nick Lockwood](https://twitter.com/nicklockwood) that allows you
+to reformat Swift code. It also has a Swift tokenizer written in Swift from scratch!
+
+### [SwiftJava - Bridging Swift to a JavaVM](https://github.com/SwiftJava/SwiftJava)
+
+>I know you've been thinking.. "What I really need is a way to bridge Swift to Java" but there are a number of use cases:<br/>
+> 1. Making Java technologies such as JDBC available to macOS applications.<br/>
+> 2. Giving Swift applications on Linux a portable user interface using Swing.<br/>
+> 3. Making business logic in written in Swift available to Android apps.<br/>
+
+The big missing point in the list, in my opinion, is calling Java libraries
+from Swift code on Linux. This seems to be possible with these tools, and there
+is a huge J2EE ecosystem to be explored on server-side.
+
+### [Apache Cassandra and ScyllaDB Driver](https://github.com/IBM-Swift/Kassandra)
+
+Yet another library from [IBM Swift](https://developer.ibm.com/swift/) team:
+
+> A pure Swift client library for Apache Cassandra (3.4+) and ScyllaDB using Cassandra's binary protocol, CQL 3.2.
+
+### [Swift Tensor Extensions for Machine-learning](https://github.com/abeschneider/stem)
+
+A machine learning library written in Swift, that seems to be inspired by
+Google's [TensorFlow](https://www.tensorflow.org).
+
+### [Skylink - Connect to Drones with Swift](https://github.com/IBM-Bluemix/skylink/tree/swift)
+
+> Skylink is a sample application that lets you connect a DJI drone aircraft to the IBM Cloud with near realtime image analysis leveraging IBM Cloudant, OpenWhisk, and IBM Watson.
+
+> The web server application is written in Swift and leverages the [Kitura](https://github.com/IBM-Swift/Kitura) framework.
+
+## Lastly...
+
+### [Laser Guns](https://twitter.com/seb_ly/status/770731396826529792)
