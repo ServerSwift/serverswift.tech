@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Issue #6"
-date:   2016-08-24
+title:  "Issue #7"
+date:   2016-08-31
 ---
 
 ## Links
