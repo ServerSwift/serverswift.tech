@@ -10,7 +10,7 @@ before the GM iOS release is the last one. And so far, all the rumours point
 to mid-September iOS 10.0 GM release. Today Preview 6 for Linux also became
 [available](https://swift.org/download).
 
-[<small><i>Max Desiatov</i></small>](https://twitter.com/_digital_signal)
+[<small><i>Max Desiatov</i></small>](https://twitter.com/maxdesiatov)
 
 ## Links
 

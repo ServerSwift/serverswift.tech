@@ -63,7 +63,7 @@ to write a Hacker News clone, which was then
 
 ### [The End of Microservices](http://lightstep.com/blog/the-end-of-microservices/)
 
-This post by [Lightstep](http://twitter.com/lightstephq) is an interesting
+This post by [Lightstep](https://twitter.com/lightstephq) is an interesting
 perspective on how microservices will probably go the way of information
 superhighway, colour television and horseless carriages. Some buzzwords go
 away, while the phenomenon itself stays and seems fairly obvious in a hindsight.
