@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Issue #8"
+date:   2016-09-08
+---
+
+[Xcode 8 GM](https://developer.apple.com/xcode/) was published yesterday,
+but unfortunately, there are still no updates on [Swift.org](https://swift.org/download/#releases). What's even more interesting,
+[`swift-3.0-branch`](https://github.com/apple/swift/commits/swift-3.0-branch) had
+commits added just 5 hours before this text was written. There is no communication
+from Apple on this matter whatsoever, which is frustrating in my opinion.
+Let's hope that future Swift releases will have a transparent roadmap that is
+not tied to phone releases in any way.
+
+[<small><i>Max Desiatov</i></small>](https://twitter.com/maxdesiatov)
+
+## Links
+
+### [The Ultimate List of Swift 3.0 Changes](https://developer.apple.com/library/prerelease/content/releasenotes/DeveloperTools/RN-Xcode/Introduction.html)
+
+There is no doubt that Swift 3.0 is a huge release. In Xcode 8 release notes
+Apple provided the most comprehensive list of changes coming in the new version.
+When compared to a similar list I've linked to [in a previous
+issue](https://www.serverswift.tech/2016/08/31/issue7.html), this one has
+practically everything listed with corresponding links to Swift Evolution
+proposals.
+
+### [Understanding the New Swift 3 API Design Guidelines](http://blog.teamtreehouse.com/understanding-new-swift-3-api-design-guidelines)
+
+[Pasan Premaratne](https://twitter.com/pasanpr) wrote about importance of API
+design looking at the major points from
+[Apple's API Design Guidelines](https://swift.org/documentation/api-design-guidelines/).
+It also underlines the importance of clarity and conventions in API naming.
+
+### [End to End Application Development in Swift](http://www.slideshare.net/cnbailey/tryswift-nyc-end-to-end-application-development-in-swift)
+
+Slides from [try! Swift NYC](http://www.tryswiftnyc.com) talk by [Chris Bailey](https://twitter.com/Chris__Bailey).
+This talk has an overview of the benefits of using Swift on servers and also
+contains a high-level description of the development process of an app
+backend.
+
+### [Property-Based Testing with SwiftCheck](https://speakerdeck.com/griotspeak/property-based-testing-with-swiftcheck)
+
+Yet another talk from [try! Swift NYC](http://www.tryswiftnyc.com) by [TJ Usiyan](https://twitter.com/griotspeak).
+It contains examples of [SwiftCheck](https://github.com/typelift/SwiftCheck) usage,
+which is able to generate test data for your unit-tests automatically, based
+on rules you define.
+
+### [Rust's Vision for 2017](https://internals.rust-lang.org/t/setting-our-vision-for-the-2017-cycle/3958)
+
+A look at the evolution of Rust, which is quite similar to Swift,
+both in syntax and use cases on server side. Remarkably, this long term vision
+is more focused on the growth of the ecosystem than the pure syntax of the language.
+
+### [Algorithms and Data Structures in Swift With Explanations](https://github.com/raywenderlich/swift-algorithm-club)
+
+Algorithm implementations by [raywenderlich.com](https://www.raywenderlich.com/) community recently updated for Swift 3.
+
+## Code
+
+### [Leaf - An Extensible Templating Language Built for Vapor](https://github.com/vapor/leaf)
+
+### [Blitter - A Social Networking App Demo](https://github.com/IBM-Swift/Blitter)
+
+### [package-swift](https://github.com/iachievedit/package-swift)
+
+> A set of helper scripts for building and packaging Swift on Ubuntu Linux
+
+### [Kitura Todo List Boilerplate](https://github.com/IBM-Swift/TodoList-Boilerplate)
+
+> An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
+
+## Lastly...
+
+### [I, For One, Welcome Our New Robot Overlords ](https://mobile.twitter.com/samim/status/772067938803253248) 🤖
