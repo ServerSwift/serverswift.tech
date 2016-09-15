@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Issue #9"
+date:   2016-09-15
+---
+
+Finally Swift 3.0 builds for Ubuntu were released and are now available at
+[swift.org](https://swift.org/download/#previews). The full release
+announcement is also available in [the swift.org blog](https://swift.org/blog/swift-3-0-released/).
+The development of Swift 3.1 is full steam ahead and we have
+[first Swift 3.1 evolution proposal approved](https://github.com/apple/swift-evolution/pull/522/files)
+and [implemented](https://github.com/apple/swift/commit/65284a581afb510f873f69a41af7d1d006e11183#diff-4ac32a78649ca5bdd8e0ba38b7006a1e).
+Interesting to see what else is coming in 3.1 🤔
+
+## Links
+
+### [Perfect 2.0 Has Arrived](http://perfect.org/perfect-2-0.html)
+
+A 2.0 release of this popular framework also compatible with Swift 3.0:
+
+> Perfect 2.0 includes many new features, such as support for new datasources
+(Redis, FileMaker) and file formats (XML, Zip), as well as significant performance
+and scalability enhancements.
+
+### [Perfect 2.0 (Swift 3), DigitalOcean and Ubuntu](http://blog.robertbojor.com/perfect-2-0-swift-3-ubuntu-and-digital-ocean/)
+
+With great timing for Perfect 2.0 release [Robert Bojor](https://twitter.com/robert_bojor)
+published a series of posts that cover basics of a Linux server setup, right
+from user creation to installation of MySQL, Swift compiler, git hooks,
+supervisord and nginx. And here are the links to the rest of the series:
+
+- [Refactoring routes and handlers](http://blog.robertbojor.com/refactoring-routes-perfect-2-boilerplace-app/)
+- [Handling requests](http://blog.robertbojor.com/perfect-server-side-swift-handling-requests/)
+- [Using form data](http://blog.robertbojor.com/perfect-server-side-swift-using-form-data/)
+- [Handling GET parameters](http://blog.robertbojor.com/perfect-server-side-swift-handling-get-parameters/)
+- [Responses explained](http://blog.robertbojor.com/perfect-server-side-swift-responses-explained/)
+- [Using JSON](http://blog.robertbojor.com/perfect-server-side-swift-using-json/)
+
+### [Swift on ARM Slack Team](http://dev.iachieved.it/swift-arm/)
+
+Swift on ARM Slack team by [iAchieved.it](https://twitter.com/iachievedit).
+
+### [Server-Side Swift Year-Long Conference](https://www.meetup.com/Server-Side-Swift-Meetup/)
+
+> More than a meetup, this Server Side Swift group is a conference that takes place over a year.  Instead of holding 8-10 talks a day over 3 days, we host conference-duration talks that feature the leading server-side Swift projects throughout the year.  These talks are hosted in Newmarket, Ontario, but are broadcast on Google Hangouts Air and recorded for YouTube.
+
+### [Server Side Swift - Why It's Awesome and Why You Should Care](https://www.slideshare.net/mobile/jensravens/server-side-swift-65883901)
+
+A talk by [Jens Ravens](https://twitter.com/JensRavens) from [SwiftConf 2016](https://swiftconf.com/).
+It starts with an overview of Swift on server and covers basics of HTTP and
+common architectural patterns used in server-side code.
+
+### [The Basics of Web Application Security](http://martinfowler.com/articles/web-security-basics.html)
+
+A huge [evolving publication](http://martinfowler.com/bliki/EvolvingPublication.html)
+by [Cade Cairns](https://github.com/cairnsc) and [Daniel Somerfield](https://github.com/danielsomerfield)
+covers topics that, in my opinion, every server-side application developer
+should know: form input validation,
+HTML output encoding and prevention of malicious code injections,
+SQL injections, encryption of data in transit, password storage, authentication
+and user sessions. Highly recommended.
+
+### [Building Your First Web App in Swift Using Vapor](http://www.appcoda.com/server-side-swift-vapor/)
+
+Yet another step-by-step guide covering basics of setting up and deploying a
+server-side Swift project.
+In this post [Sahand Edrisian](https://twitter.com/SahandEdrisian) does it with
+[Vapor](http://vapor.codes) and [Heroku](https://www.heroku.com).
+
+### [A Curated List of Awesome Server-Side Swift 3 projects.](https://github.com/Awesome-Server-Side-Swift/TheList)
+
+A list inspired by [awesome-ios](https://github.com/vsouza/awesome-ios) and
+curated by [Jonathan Guthrie](https://twitter.com/iamjono).
+
+## Code
+
+### [Perfect-Notifications - iOS Push Notifications for Perfect](https://github.com/PerfectlySoft/Perfect-Notifications)
+
+### [Kronos - Elegant NTP date library in Swift](https://github.com/lyft/Kronos)
+
+> Kronos is an NTP client library written in Swift. It supports sub-seconds precision and provides an stable monotonic clock that won't be affected by clock changes.
+
+## Lastly...
+
+### [Emoji Variable Names](https://twitter.com/ThePracticalDev/status/774495112827138048) 🐶🐮
