@@ -12,6 +12,8 @@ The development of Swift 3.1 is full steam ahead and we have
 and [implemented](https://github.com/apple/swift/commit/65284a581afb510f873f69a41af7d1d006e11183#diff-4ac32a78649ca5bdd8e0ba38b7006a1e).
 Interesting to see what else is coming in 3.1 🤔
 
+[<small><i>Max Desiatov</i></small>](https://twitter.com/maxdesiatov)
+
 ## Links
 
 ### [Perfect 2.0 Has Arrived](http://perfect.org/perfect-2-0.html)

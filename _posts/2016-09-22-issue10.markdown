@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Issue #10"
+date:   2016-09-22
+---
+
+## Links
+
+### [Vapor 1.0](https://vapor.codes)
+
+One of the popular frameworks Vapor had a 1.0 release last week! 🎉 From
+[the changelog](https://github.com/vapor/vapor/releases) it looks like 1.0 is
+close to the preceding [0.17](https://github.com/vapor/vapor/releases/tag/0.17.0)
+which introduced [Leaf](https://github.com/vapor/leaf) templating language,
+authentication with [Turnstile](https://github.com/stormpath/Turnstile) and a
+few other things.
+
+### [Kitura 1.0](https://github.com/IBM-Swift/Kitura/releases/tag/1.0.0)
+
+Yet another 1.0 release in the web frameworks land! 👏
+
+> Kitura is a high performance and simple to use web framework for building modern Swift applications.
+> It scales out of the box, it is cloud-ready, and it's fun!
+
+### [Why We Need Developer Tools for Server-Side Swift](https://medium.com/@MaxD/why-we-need-developer-tools-for-server-side-swift-820f5ad6c8b2)
+
+A blog post from [yours truly](https://twitter.com/maxdesiatov) in which I describe
+my motivation to start working on developer tools for server-side Swift. I am
+really excited about this, and it wouldn't happen without the continued interest
+coming from you, readers of this newsletter. 😃 If you're interested in what I'm
+up to, check out [the website and sign up for the updates](https://www.astrocat.tech).
+Thanks for your support!
+
+### [Securing Kitura Part 1: Enabling SSL/TLS on your Swift Server](https://developer.ibm.com/swift/2016/09/22/securing-kitura-part-1-enabling-ssltls-on-your-swift-server/)
+
+An article by [Gelareh Taban](https://twitter.com/gadphly) that shows how to generate
+certificates and set up TLS with Kitura and [BlueSSLService](https://github.com/IBM-Swift/BlueSSLService).
+
+### [NSSpain 2016: Developing App-Backends with Swift on the Server](https://speakerdeck.com/terhechte/nsspain-2016-developing-app-backends-with-swift-on-the-server)
+
+A very comprehensive talk by [Benedikt Terhechte](https://twitter.com/terhechte)
+from [NSSpain 2016](http://2016.nsspain.com). It has an overview of the ecosystem,
+a few benchmark graphs that compare Swift frameworks with other frameworks for
+Java and Go, and also a bit of sample code with conclusions about
+current state of Swift on servers.
+
+### [Server Side Swift](http://www.ananogal.com/blog/server-side-swift/)
+
+A post by [Ana Nogal](https://twitter.com/anainogal) that highlights benefits
+of using Swift on the server and also has an overview of Vapor and Kitura.
+
+### [CloudKit: What is it good for?](https://www.natashatherobot.com/cloudkit-what-is-it-good-for/)
+
+Here [Natasha The Robot](https://twitter.com/natashatherobot) describes her
+experience with [CloudKit](https://developer.apple.com/icloud/).
+In most of the simple cases you can use Apple's CloudKit without any servers, but
+as I mentioned in one of the previous issues, recently CloudKit
+became usable on server-side with [CloudKit Web Services](https://developer.apple.com/library/ios/documentation/DataManagement/Conceptual/CloutKitWebServicesReference/Introduction/Introduction.html).
+
+### [Building a Modern Bank Backend](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
+
+A very useful and comprehensive article about backend infrastructure of [Monzo](https://monzo.com).
+It highlights the use of polyglot microservices, cluster management, RPC and
+asynchronous messaging.
+
+## Code
+
+### [DemoPeripheral - Bluetooth LE Peripheral for ARM Linux Device](https://github.com/colemancda/DemoPeripheral)
+
+> Turn your ARM Linux device (e.g. BeagleBone, Raspberry Pi, Orange Pi) into an iBeacon and Bluetooth Low Energy peripheral with Swift. Includes iOS app for interacting with the peripheral via Bluetooth.
+
+### [SwiftyBeaver Logging Provider for Vapor](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor)
+
+> Adds the powerful logging of SwiftyBeaver to Vapor for server-side Swift 3 on Linux and Mac.
+
+### [Kakapo - Mock Server Behaviors and Responses in Swift](https://github.com/devlucky/Kakapo)
+
+>Kakapo is a dynamic mocking library. It allows you to replicate your backend APIs and logic.
+With Kakapo you can easily prototype your application based on your API specifications.
+
+## Lastly...
+
+### [How to Build a Robot That “Sees” With $100 and TensorFlow](https://www.oreilly.com/learning/how-to-build-a-robot-that-sees-with-100-and-tensorflow) 🤖
