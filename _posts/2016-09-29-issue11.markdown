@@ -31,7 +31,7 @@ and a server written in Swift.
 
 A short survey started by [Perfect](https://www.perfect.org) about server-side Swift.
 As was confirmed on [Perfect Slack](http://perfect.ly), aggregated data will be
-published after the poll finishes and I personally look forward to seeing it,
+published after the poll finishes and I personally look forward to seeing it
 as the poll has some pretty interesting questions, like framework usage for
 example.
 
