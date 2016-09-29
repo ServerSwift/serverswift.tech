@@ -4,10 +4,11 @@ title:  "Issue #11"
 date:   2016-09-29
 ---
 
-This week we've seen even more Swift 3.x activity, three new proposals in review:
-[SE-141 "@available attribute for Swift version"](https://github.com/apple/swift-evolution/blob/master/proposals/0141-available-by-swift-version.md),
-[SE-142 "Associated types constraints"](https://github.com/apple/swift-evolution/blob/master/proposals/0142-associated-types-constraints.md),
-[SE-143 "Conditional conformances for generics"](https://github.com/apple/swift-evolution/blob/master/proposals/0143-conditional-conformances.md). Here are some other
+This week we've seen even more Swift 3.x activity. That was [Ubuntu 16.04 support](https://github.com/apple/swift/pull/4928),
+[Swift 3.0.1 Preview 1 release](https://swift.org/download/#previews) and three new proposals in review:
+[SE-141 for `@available` attribute for Swift version](https://github.com/apple/swift-evolution/blob/master/proposals/0141-available-by-swift-version.md),
+[SE-142 for associated types constraints](https://github.com/apple/swift-evolution/blob/master/proposals/0142-associated-types-constraints.md) and
+[SE-143 for generics conditional conformances](https://github.com/apple/swift-evolution/blob/master/proposals/0143-conditional-conformances.md). Here are some other
 interesting tidbits: [FreeBSD compatibility PR](https://github.com/apple/swift/pull/4804),
 [SE-141 implementation PR](https://github.com/apple/swift/pull/4985),
 [SwiftPM shell completion scripts](https://github.com/apple/swift-package-manager/pull/703),
@@ -21,40 +22,78 @@ fixes in open-source Foundation.
 
 ### [mDevTalk: Swift Package Manager](https://honzadvorsky.com/articles/2016-09-29-19-00-mdevtalk_swift_package_manager/)
 
+A talk by [Honza Dvorsky](https://twitter.com/czechboy0) at [mDevTalk](https://www.mdevtalk.cz)
+about SwiftPM. It covers SwiftPM basics, platform and languages support, module structure,
+and shows an example of a SwiftPM module that is shared between a command-line tool
+and a server written in Swift.
+
 ### [Server-Side Swift Survey](https://www.surveymonkey.com/r/V6TXDNH)
 
-### [https://twitter.com/free_pinz/status/776571167926652928](https://twitter.com/free_pinz/status/776571167926652928)
+A short survey started by [Perfect](https://www.perfect.org) about server-side Swift.
+As was confirmed on [Perfect Slack](http://perfect.ly), aggregated data will be
+published after the poll finishes and I personally look forward to seeing it,
+as the poll has some pretty interesting questions, like framework usage for
+example.
 
-### [https://github.com/apple/swift-protobuf-plugin](https://github.com/apple/swift-protobuf-plugin)
+### [IBM Kitura @ Server-Side Swift Year Long Conference](https://www.youtube.com/watch?v=xEStdmwFVBg)
 
-### [https://github.com/matthijs2704/vapor-apns](https://github.com/matthijs2704/vapor-apns)
+A live coding session by [Robert Dickerson](https://twitter.com/rfdickerson) from IBM
+featuring [Kitura](http://www.kitura.io) at [Server-Side Swift Year Long Conference](http://www.meetup.com/Server-Side-Swift-Meetup/).
 
-### [https://developer.ibm.com/bluemix/2016/09/22/bluemix-runtime-for-swift/](https://developer.ibm.com/bluemix/2016/09/22/bluemix-runtime-for-swift/)
+### [Plugin and Runtime Library for Using Protobuf with Swift](https://github.com/apple/swift-protobuf/)
 
-### [https://www.cocoawithlove.com/blog/2016/09/22/deque.html](https://www.cocoawithlove.com/blog/2016/09/22/deque.html)
+It's clear that JSON parsing libraries are so 2015 at this point and now it's
+time for [Protobuf](https://en.wikipedia.org/wiki/Protocol_Buffers) parsers.
+Surprisingly enough, this one comes from Apple. I only wonder, how soon will we see
+[Cap’n Proto](https://capnproto.org) libraries?
 
-### [https://twitter.com/stef/status/779009623445626880](https://twitter.com/stef/status/779009623445626880)
+### [General Availability: IBM Bluemix Runtime for Swift](https://developer.ibm.com/bluemix/2016/09/22/bluemix-runtime-for-swift/)
 
-### [https://developer.apple.com/news/?id=09222016a](https://developer.apple.com/news/?id=09222016a)
+Great to see that [IBM's Bluemix](https://console.ng.bluemix.net) fully supports Swift now! 🎉
 
-### [https://github.com/swift-emacs/swift-mode](https://github.com/swift-emacs/swift-mode)
+> When a developer deploys a Swift application to Bluemix Dedicated or Bluemix Local, the platform:
+>
+> * Provides access to a Linux container.
+> * Loads the latest Swift binaries.
+> * Issues a command to build your application by using the Swift Package Manager function.
+> * Runs the application.
 
-### [https://www.youtube.com/watch?v=xEStdmwFVBg](https://www.youtube.com/watch?v=xEStdmwFVBg)
+### [Swift 3.0 Unsafe World](http://technology.meronapps.com/2016/09/27/swift-3-0-unsafe-world-2/)
 
-### [http://technology.meronapps.com/2016/09/27/swift-3-0-unsafe-world-2/](http://technology.meronapps.com/2016/09/27/swift-3-0-unsafe-world-2/)
+An article by Roberto Perez about interacting with low-level C APIs.
 
-### [http://khanlou.com/2016/09/swifty-delegates/](http://khanlou.com/2016/09/swifty-delegates/)
+### [Optimizing a Copy-on-write Double-ended Queue in Swift](https://www.cocoawithlove.com/blog/2016/09/22/deque.html)
 
-### [https://github.com/PerfectExamples](https://github.com/PerfectExamples)
+Yet another article about low-level Swift code, this one by
+[Matt Gallagher](https://twitter.com/cocoawithlove). In this post he implements
+a collection in Swift that supports [copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write) and also compares its performance
+with C++ `std::deque`. The source code is also
+available on [GitHub](https://github.com/mattgallagher/CwlUtils).
 
+### [Token Authentication Now Available for Push Notifications](https://developer.apple.com/news/?id=09222016a)
+
+> You can now take advantage of a simpler method of authentication by using tokens instead of certificates when sending push notifications. A token is easy to generate, doesn’t expire, and can be used to send notifications to all of your apps.
 
 ### [Swift Initializer Generator](https://github.com/Bouke/SwiftInitializerGenerator)
 
-[Bouke Haarsma](https://twitter.com/BoukeHaarsma)
+[Bouke Haarsma](https://twitter.com/BoukeHaarsma) published an Xcode 8 Source
+Code Extension to generate Swift initializers:
+
+> This Xcode 8 Source Code Extension will generate a Swift initializer based
+on the lines you've selected. Handy if you made a struct public and now you have to provide the initializer implementation yourself.
 
 ## Code
 
-### [Vapor's Swift wrapper for PostgreSQL 1.0 Release](https://github.com/vapor/postgresql/releases/tag/1.0.0)
+### [Perfect Examples](https://github.com/PerfectExamples)
+
+An organization on GitHub grouping repositories with
+sample code that use Perfect.
+
+### [Vapor's Swift Wrapper for PostgreSQL 1.0 Release](https://github.com/vapor/postgresql/releases/tag/1.0.0)
+
+### [Apple Push Notifications Service Library for Vapor](https://github.com/matthijs2704/vapor-apns)
+
+### [Emacs Support for Swift](https://github.com/swift-emacs/swift-mode)
 
 ## Lastly...
 
