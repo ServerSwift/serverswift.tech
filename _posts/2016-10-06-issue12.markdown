@@ -62,7 +62,7 @@ installation, database privileges and [sample code](https://github.com/iachieved
 
 ### [Interview with IBM’s Chris Bailey about Kitura 1.0 and Bluemix Runtime for Swift 3](https://www.infoq.com/news/2016/10/ibm-kitura-10-bluemix-swift-3)
 
-A short interview [Chris Bailey](https://twitter.com/Chris__Bailey) where he
+A short interview with [Chris Bailey](https://twitter.com/Chris__Bailey) where he
 provides a retrospective of Swift 3.0 and Kitura development.
 
 ### [Three Questions About More "Dynamic" Swift](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160926/027337.html)
