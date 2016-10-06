@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Issue #12"
+date:   2016-10-04
+---
+
+With regards to Swift compiler infrastructure this week we've got [Swift 3.0.1 Preview 2](https://swift.org/download/#previews)
+and two [evolution](https://github.com/apple/swift-evolution/blob/master/proposals/0141-available-by-swift-version.md)
+[proposals](https://github.com/apple/swift-evolution/blob/master/proposals/0142-associated-types-constraints.md) accepted.
+And here is the rest of the news:
+
+## Links
+
+### [Protocol Buffers in Your Kitura Apps](https://developer.ibm.com/swift/2016/09/30/protocol-buffers-with-kitura/)
+
+This article by [Robert F. Dickerson](https://twitter.com/rfdickerson)
+
+
+### [“Building a Server-Side Swift API for Games” Workshop](https://www.eventbrite.com/e/building-a-server-side-swift-api-for-games-workshop-tickets-28396357269)
+
+### [Understanding Swift Evolution](http://www.jessesquires.com/understanding-swift-evolution/)
+
+[Jesse Squires](https://twitter.com/jesse_squires)
+
+### [Using MySQL with Swift 3.0](http://dev.iachieved.it/iachievedit/working-with-mysql-databases-using-swift-3-0/)
+
+[iAchieved.it](https://twitter.com/iachievedit)
+
+### [Interview with IBM’s Chris Bailey about Kitura 1.0 and Bluemix Runtime for Swift 3](https://www.infoq.com/news/2016/10/ibm-kitura-10-bluemix-swift-3)
+
+[Chris Bailey](https://twitter.com/Chris__Bailey)
+
+### [Why I believe GraphQL will come to replace REST](https://dev.to/reactiveconf/why-i-believe-graphql-will-come-to-replace-rest)
+
+
+
+### [Three questions about more "dynamic" Swift	](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160926/027337.html)
+
+
+
+### [Declarative API Design in Swift](http://blog.benjamin-encz.de/post/declarative-api-design-in-swift/)
+
+
+
+### [Concrete Same-type Requirements in Extensions Support Merged for Swift 3.1](https://bugs.swift.org/browse/SR-1009)
+
+## Code
+
+### [Formula: a Code Generator for Swift](https://github.com/momentumworks/Formula)
+
+### [Swift Implementation of JSON Web Token (JWT)](https://github.com/kylef/JSONWebToken.swift)
+
+### [Fluent PostgreSQL Driver 1.0](https://github.com/vapor/postgresql-driver/releases/tag/1.0.0)
+
+### [A Demo of Vapor Authentication Powered by Turnstile](https://github.com/stormpath/Turnstile-Vapor-Example)
+
+### [An Example URL Shortener System for Perfect](https://github.com/PerfectExamples/Perfect-URL-Shortener)
+
+## Lastly...
+
+### [My New Hobby](https://twitter.com/danslimmon/status/781902285328691201) 😆
