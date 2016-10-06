@@ -4,45 +4,82 @@ title:  "Issue #12"
 date:   2016-10-04
 ---
 
-With regards to Swift compiler infrastructure this week we've got [Swift 3.0.1 Preview 2](https://swift.org/download/#previews)
-and two [evolution](https://github.com/apple/swift-evolution/blob/master/proposals/0141-available-by-swift-version.md)
-[proposals](https://github.com/apple/swift-evolution/blob/master/proposals/0142-associated-types-constraints.md) accepted.
-And here is the rest of the news:
+This week it's hard not to mention
+[ongoing things](https://9to5mac.com/2016/10/05/apple-inexplicably-terminates-developer-account-for-popular-developer-app-dash-apps-removed-from-app-store/)
+in macOS/iOS world, especially as they are related to developer tools. I personally
+use [Dash](https://kapeli.com/dash) almost every day and for me it's a 5-star app,
+so accusations from Apple (with no evidence!) about review manipulations just
+don't add up. The way Apple [handles this](http://inessential.com/2016/10/06/apples_judicial_system)
+doesn't inspire me to create code for their hardware platforms. I'm happy
+that Swift is open-source and isn't in full control of just one company anymore.
+
+With regards to Swift compiler infrastructure this week we've got
+[Swift 3.0.1 Preview 2](https://swift.org/download/#previews), two
+[evolution](https://github.com/apple/swift-evolution/blob/master/proposals/0141-available-by-swift-version.md)
+[proposals](https://github.com/apple/swift-evolution/blob/master/proposals/0142-associated-types-constraints.md)
+accepted, a small language feature
+[implemented for Swift 3.1](https://bugs.swift.org/browse/SR-1009) and finally
+[an update on Swift 4](https://github.com/apple/swift-evolution/pull/541/files).
+
+[<small><i>Max Desiatov</i></small>](https://twitter.com/maxdesiatov)
 
 ## Links
 
 ### [Protocol Buffers in Your Kitura Apps](https://developer.ibm.com/swift/2016/09/30/protocol-buffers-with-kitura/)
 
-This article by [Robert F. Dickerson](https://twitter.com/rfdickerson)
-
+This article by [Robert F. Dickerson](https://twitter.com/rfdickerson) covers
+a simple example of a [Kitura](http://www.kitura.io) app that uses
+[swift-protobuf](https://github.com/apple/swift-protobuf) library. The finished
+code is available at [GitHub](https://github.com/rfdickerson/Kitura-Protobufs).
 
 ### [“Building a Server-Side Swift API for Games” Workshop](https://www.eventbrite.com/e/building-a-server-side-swift-api-for-games-workshop-tickets-28396357269)
 
+A server-side Swift workshop! 🎉
+It's organised by [Jonathan Guthrie](https://twitter.com/iamjono) from
+[Perfect](https://www.perfect.org). You might be interested in this if
+you're in Toronto on November 8th:
+
+> In this hands-on workshop, participants will build a back-end that:
+>
+> * Logs a player in
+> * Stores individual and high scores
+> * Delivers “in game news” items
+>
+> Participants will also learn how to build your own Swift Package Module for code re-use.
+
 ### [Understanding Swift Evolution](http://www.jessesquires.com/understanding-swift-evolution/)
 
-[Jesse Squires](https://twitter.com/jesse_squires)
+A post by [Jesse Squires](https://twitter.com/jesse_squires) about batch
+analysis of Swift evolution proposals. This is remarkable work that gives us
+a unique perspective on the work of the community through the last year. The code is
+available on [GitHub](https://github.com/jessesquires/swift-proposal-analyzer).
 
 ### [Using MySQL with Swift 3.0](http://dev.iachieved.it/iachievedit/working-with-mysql-databases-using-swift-3-0/)
 
-[iAchieved.it](https://twitter.com/iachievedit)
+[iAchieved.it](https://twitter.com/iachievedit) posted a guide on how to set up
+MySQL with Swift 3.0 and [Vapor](https://vapor.codes) on Linux, including
+installation, database privileges and [sample code](https://github.com/iachievedit/swift_mysql).
 
 ### [Interview with IBM’s Chris Bailey about Kitura 1.0 and Bluemix Runtime for Swift 3](https://www.infoq.com/news/2016/10/ibm-kitura-10-bluemix-swift-3)
 
-[Chris Bailey](https://twitter.com/Chris__Bailey)
+A short interview [Chris Bailey](https://twitter.com/Chris__Bailey) where he
+provides a retrospective of Swift 3.0 and Kitura development.
 
-### [Why I believe GraphQL will come to replace REST](https://dev.to/reactiveconf/why-i-believe-graphql-will-come-to-replace-rest)
+### [Three Questions About More "Dynamic" Swift](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160926/027337.html)
 
+This email from [Chris Lattner](https://twitter.com/clattner_llvm) on
+[swift-evolution mailing list](https://lists.swift.org/mailman/listinfo/swift-evolution)
+sheds some light on "dynamic" features of Swift and even mentions [Zewo's](http://www.zewo.io)
+reflection API.
 
+### [Why I Believe GraphQL Will Come to Replace REST](https://dev.to/reactiveconf/why-i-believe-graphql-will-come-to-replace-rest)
 
-### [Three questions about more "dynamic" Swift	](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160926/027337.html)
-
-
-
-### [Declarative API Design in Swift](http://blog.benjamin-encz.de/post/declarative-api-design-in-swift/)
-
-
-
-### [Concrete Same-type Requirements in Extensions Support Merged for Swift 3.1](https://bugs.swift.org/browse/SR-1009)
+A nice write-up about [GraphQL](http://graphql.org) by
+[Martijn Walraven](https://twitter.com/martijnwalraven), who is also a developer of
+an GraphQL [client library for iOS](https://github.com/apollostack/apollo-ios).
+I mostly agree with the main premise as there are better approaches than REST in
+many APIs. With regards to this [Falcor from Netflix](http://netflix.github.io/falcor/)
+is also worth mentioning.
 
 ## Code
 
