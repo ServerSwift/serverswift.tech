@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Issue #13"
+date:   2016-10-13
+---
+
+Yet another week, yet another Swift 3.0.1 preview, this time it's
+[Preview 3](https://swift.org/download/#releases).
+[Swift Evolution status page](http://apple.github.io/swift-evolution/) was also
+refined with more versions added to corresponding proposals. As for
+Linux-specific stuff, there is a
+[compiler PR](https://github.com/apple/swift/pull/5269) to support static
+linking from [Simon Evans](https://github.com/spevans) with a corresponding
+[Swift Jira issue](https://bugs.swift.org/browse/SR-2280). Please vote it up
+if you would like to see working Swift executables that can be freely copied to any Linux box.
+
+
+## Links
+
+### [Logging in Server-Side Swift](ahttps://medium.com/swiftybeaver-blog/logging-in-server-side-swift-85bdecb6be80#.eba3afv10) by [Sebastian Kreutzberger](https://twitter.com/skreutzb)
+
+
+
+### [Contributing to the Server-side Swift World](https://medium.com/@petrpavlik/contributing-to-the-server-side-swift-world-936155e4c812#.2tzl9wu6s) by [Petr Pavlik](https://twitter.com/ptrpavlik)
+
+
+
+### [Using Swift with gRPC](https://medium.com/@nathanborror/using-swift-and-grpc-5e8af5b97b9c#.7fuqms9qv) by [Nathan Borror](https://twitter.com/nathanborror)
+
+
+
+### [Optional Non-Escaping Closures](https://oleb.net/blog/2016/10/optional-non-escaping-closures/)
+
+
+
+
+### [Distribution Tests](http://dduan.net/2016/10/10/distribution-tests/) by [Daniel Duan](https://twitter.com/daniel_duan)
+
+
+
+### [What Even is a Container: Namespaces and Cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/) by [Julia Evans](https://twitter.com/b0rk)
+
+
+
+### [Mastering Swift: Essential Details About Strings](https://rainsoft.io/mastering-swift-essential-details-about-strings/) by [Dmitri Pavlutin](https://twitter.com/panzerdp)
+
+
+
+### [Linux Benchmarks for Server-Side Swift vs Node.js](https://medium.com/@rymcol/linux-ubuntu-benchmarks-for-server-side-swift-vs-node-js-db52b9f8270b#.72ny1ydj7) by [Ryan Collins](https://twitter.com/rymcol)
+
+[GitHub - rymcol/Linux-Server-Side-Swift-Benchmarking: Server Side Swift Things that Benchmark in Ubuntu 14.04.5.](https://github.com/rymcol/Linux-Server-Side-Swift-Benchmarking)
+
+### [Unit-Testing Vapor](https://seatoncode.com/unit-testing-vapor/) by [Stephen Seaton-Blanchard](https://github.com/Bored0ne)
+
+## Code
+
+### [Vapor 1.1](https://github.com/vapor/vapor/releases/tag/1.1.0)
+
+New release of [Vapor](https://vapor.codes) with fixes for TLS, improved
+configuration, more flexible Provider API and other improvements.
+
+### [VaporJWT](https://github.com/siemensikkema/vapor-jwt)
+
+> VaporJWT is a library for JSON Web Tokens (JWT) designed with the following goals in mind:
+>
+> * clean API
+> * native to Vapor
+> * many features
+> * highly extensible
+
+### [Noze 0.5.0 - Evented I/O Streams for Swift](http://noze.io/swift301/)
+
+> Noze.io is an attempt to carry over the Node.js ideas into pure Swift. It uses libdispatch for event-driven, non-blocking I/O. Noze.io is built around type-safe back-pressure aware pull-streams (using Swift generics) operating on batches of items.
+
+## Lastly
+
+### [Happiness Can Be Photographed](https://twitter.com/bagrow/status/784066050941943808) 📸
