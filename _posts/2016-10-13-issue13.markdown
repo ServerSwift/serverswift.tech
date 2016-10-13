@@ -24,7 +24,7 @@ Here Sebastian describes his experience with porting
 [Vapor](https://vapor.codes) support to it and also rewriting SwiftyBeaver website with
 Vapor.
 
-### [Contributing to the Server-side Swift World](https://medium.com/@petrpavlik/contributing-to-the-server-side-swift-world-936155e4c812#.2tzl9wu6s) by [Petr Pavlik](https://twitter.com/ptrpavlik)
+### [Contributing to the Server-Side Swift World](https://medium.com/@petrpavlik/contributing-to-the-server-side-swift-world-936155e4c812#.2tzl9wu6s) by [Petr Pavlik](https://twitter.com/ptrpavlik)
 
 An article covering the basics of writing a simple cross-platform library
 that supports both Linux and macOS, adding tests and setting it up with Travis.
