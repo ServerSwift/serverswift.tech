@@ -17,40 +17,59 @@ if you would like to see working Swift executables that can be freely copied to 
 
 ## Links
 
-### [Logging in Server-Side Swift](ahttps://medium.com/swiftybeaver-blog/logging-in-server-side-swift-85bdecb6be80#.eba3afv10) by [Sebastian Kreutzberger](https://twitter.com/skreutzb)
+### [Logging in Server-Side Swift](https://medium.com/swiftybeaver-blog/logging-in-server-side-swift-85bdecb6be80#.eba3afv10) by [Sebastian Kreutzberger](https://twitter.com/skreutzb)
 
-
+Here Sebastian describes his experience with porting
+[SwiftyBeaver](https://swiftybeaver.com) library to Linux, adding
+[Vapor](https://vapor.codes) support to it and also rewriting SwiftyBeaver website with
+Vapor.
 
 ### [Contributing to the Server-side Swift World](https://medium.com/@petrpavlik/contributing-to-the-server-side-swift-world-936155e4c812#.2tzl9wu6s) by [Petr Pavlik](https://twitter.com/ptrpavlik)
 
-
+An article covering the basics of writing a simple cross-platform library
+that supports both Linux and macOS, adding tests and setting it up with Travis.
 
 ### [Using Swift with gRPC](https://medium.com/@nathanborror/using-swift-and-grpc-5e8af5b97b9c#.7fuqms9qv) by [Nathan Borror](https://twitter.com/nathanborror)
 
+Yet another attack on REST dominance, in addition to [GraphQL](http://graphql.org) I've mentioned
+in [the previous issue](https://www.serverswift.tech/2016/10/04/issue12.html).
+[gRPC](http://www.grpc.io) just got basic Swift support thanks to Apple's
+[swift-protobuf](https://github.com/apple/swift-protobuf) library and Nathan's
+[swift-grpc](https://github.com/nathanborror/swift-grpc).
 
+### [Optional Non-Escaping Closures](https://oleb.net/blog/2016/10/optional-non-escaping-closures/) by [Ole Begemann](http://twitter.com/olebegemann)
 
-### [Optional Non-Escaping Closures](https://oleb.net/blog/2016/10/optional-non-escaping-closures/)
-
-
-
-
-### [Distribution Tests](http://dduan.net/2016/10/10/distribution-tests/) by [Daniel Duan](https://twitter.com/daniel_duan)
-
-
-
-### [What Even is a Container: Namespaces and Cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/) by [Julia Evans](https://twitter.com/b0rk)
-
-
-
-### [Mastering Swift: Essential Details About Strings](https://rainsoft.io/mastering-swift-essential-details-about-strings/) by [Dmitri Pavlutin](https://twitter.com/panzerdp)
-
-
+Quite important article that clarifies behaviour of escaping closures that
+[was changed in Swift 3.0](https://oleb.net/blog/2016/10/optional-non-escaping-closures/).
+You might also be interested in reading [this article](https://swiftunboxed.com/lang/closures-escaping-noescape-swift3/) first.
 
 ### [Linux Benchmarks for Server-Side Swift vs Node.js](https://medium.com/@rymcol/linux-ubuntu-benchmarks-for-server-side-swift-vs-node-js-db52b9f8270b#.72ny1ydj7) by [Ryan Collins](https://twitter.com/rymcol)
 
-[GitHub - rymcol/Linux-Server-Side-Swift-Benchmarking: Server Side Swift Things that Benchmark in Ubuntu 14.04.5.](https://github.com/rymcol/Linux-Server-Side-Swift-Benchmarking)
+The most comprehensive benchmark of server-side Swift frameworks is back. 🎉
+The main change is that it was reproduced on Linux.
 
-### [Unit-Testing Vapor](https://seatoncode.com/unit-testing-vapor/) by [Stephen Seaton-Blanchard](https://github.com/Bored0ne)
+### [Distribution Tests](http://dduan.net/2016/10/10/distribution-tests/) by [Daniel Duan](https://twitter.com/daniel_duan)
+
+We all want our code to be well-tested, preferrably automatically. When you write a cross-platform library, you
+also need to support multiple package managers. This article describes [a template](https://github.com/dduan/DistributionTests)
+that can be used for testing builds of your library with CocoaPods, Carthage and
+SwiftPM simultaneously.
+
+### [What Even is a Container: Namespaces and Cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/) by [Julia Evans](https://twitter.com/b0rk)
+
+Since I started developing with Swift for Linux, I find [Docker](https://www.docker.com)
+containers incredibly
+useful for deployment and infrastructure setup. This article is the best explanation
+I've seen of what a container is and how does it work.
+
+### [Mastering Swift: Essential Details About Strings](https://rainsoft.io/mastering-swift-essential-details-about-strings/) by [Dmitri Pavlutin](https://twitter.com/panzerdp)
+
+A thorough article about Swift's `String` API and Unicode support, up to date with Swift 3.0.
+
+### [Unit Testing Vapor](https://seatoncode.com/unit-testing-vapor/) by [Stephen Seaton-Blanchard](https://github.com/Bored0ne)
+
+A short example of a Vapor application with unit-tests, covers a few differences
+in XCTest that need a special treatment on Linux when compared to macOS.
 
 ## Code
 
