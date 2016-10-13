@@ -91,6 +91,6 @@ configuration, more flexible Provider API and other improvements.
 
 > Noze.io is an attempt to carry over the Node.js ideas into pure Swift. It uses libdispatch for event-driven, non-blocking I/O. Noze.io is built around type-safe back-pressure aware pull-streams (using Swift generics) operating on batches of items.
 
-## Lastly
+## Lastly...
 
 ### [Happiness Can Be Photographed](https://twitter.com/bagrow/status/784066050941943808) 📸
