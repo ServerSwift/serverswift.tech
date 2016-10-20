@@ -1,0 +1,130 @@
+---
+layout: post
+title:  "Issue #14"
+date:   2016-10-18
+---
+
+## Links
+
+### [Application Monitoring for Swift Backends, First Update](https://blog.astrocat.tech/application-monitoring-for-swift-backends-first-update-25f63e5c89a2)
+
+
+
+### [Full-stack Swift - Part 1 - codecentric Blog : codecentric Blog](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
+
+
+
+### [Patrick Bohrer - Technical Lead of Swift@IBM - SwiftCoders](http://pca.st/6qg1)
+
+
+
+### [Highlights from "Benchmarks for the Top SSS Frameworks vs. Node.js" Study](https://youtu.be/qNMWcQVd1m0?t=34m3s)
+
+
+### [IBM Cloud Tools for Swift - TodoList Tutorial - YouTube](https://m.youtube.com/watch?feature=youtu.be&v=_7rFQg-465E)
+
+
+
+### [How breakpoints are set – Satabdi Das](http://majantali.net/2016/10/how-breakpoints-are-set/)
+
+https://about.me/satabdi
+
+### [4 Ways to Fail when Implementing a Microservice Architecture - Nic Jackson at London Dev Community - YouTube](https://m.youtube.com/watch?t=20s&v=g-1oAKSBBJM)
+
+
+
+### [Server Side Swift with Vapor: Getting Started | Ray Wenderlich](https://videos.raywenderlich.com/screencasts/server-side-swift-with-vapor-getting-started)
+
+
+
+
+
+
+### [Specifying function execution contexts](https://www.cocoawithlove.com/blog/specifying-execution-contexts.html)
+
+
+
+### [Sean O'Dowd ⚰ on Twitter: "damn someone at apple needs a hug
+
+"_thereIsNoSadnessLikeTheDeathOfOptimism" https://t.co/4cGoVuvvGp"](https://twitter.com/nicetrysean/status/788194924411760640)
+
+
+
+### [I Am Devloper on Twitter: "Pushing to production https://t.co/UcMYVMfdle"](https://twitter.com/iamdevloper/status/788153043372150784)
+
+
+
+### [Objective-C  id  as Swift  Any  - Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/?id=39)
+
+
+
+### [Swift for Ruby Devs: The Basics pt. 2](https://whatilearnedtoday.io/swift-for-ruby-devs-the-basics-pt-2/)
+
+
+
+### [Thinking from Scratch with Sets in Swift](https://medium.cobeisfresh.com/thinking-from-scratch-with-sets-in-swift-1b3050a76e45#.yk98f6tdm)
+
+
+
+### [UK Pubs Traveling Salesman Problem](http://www.math.uwaterloo.ca/tsp/pubs/)
+
+
+
+### [SWIFTBITES Issue NO. 1 — Optional Pattern Matching – iOS App Development – Medium](https://medium.com/ios-os-x-development/swiftbites-issue-no-1-an-optional-feature-i-didnt-know-so-far-4d417272f13b#.dz6bq8bf6)
+
+
+
+### [GitHub - apollostack/apollo-ios: 📱 A GraphQL client for iOS, written in Swift](https://github.com/apollostack/apollo-ios)
+
+
+
+### [Cartography vs SnapKit | LibHunt](http://buff.ly/2exgmNn)
+
+
+
+### [“Building a Server Side Swift API for Games” workshop Tickets, Tue, Nov 8, 2016 at 1:30 PM | Eventbrite](https://www.eventbrite.com/e/building-a-server-side-swift-api-for-games-workshop-tickets-28396357269)
+
+
+
+### [How to Do XCTestCase tearDown Wrong (and Right)](http://qualitycoding.org/teardown/)
+
+
+
+### [GitHub - harlanhaskins/Probably: A Swift probability and statistics library](https://github.com/harlanhaskins/Probably)
+
+
+
+### [How to create a Telegram bot with Swift using Vapor on Ubuntu / macOS - Fabrizio Brancati](https://www.fabriziobrancati.com/posts/how-create-telegram-bot-swift-vapor-ubuntu-macos)
+
+
+
+### [Securing Kitura Part 2: Basic Authentication - Swift@IBM](https://developer.ibm.com/swift/2016/10/17/securing_kitura_basic_authentication/)
+
+
+
+### [Specifying function execution contexts](https://www.cocoawithlove.com/blog/specifying-execution-contexts.html)
+
+
+
+### [Subrahmanyam KVJ on Twitter: "Clumsy, cutesy, scary, terrifying, awesome, helpful... But very clearly, a key part of our future 😀        
+https://t.co/ySxQ0YuvQQ"](https://twitter.com/SuB8u/status/746156151708880897)
+
+
+
+### [ [swift-build-dev] Proposal: Package Manager Version Pinning
+   ](https://lists.swift.org/pipermail/swift-build-dev/Week-of-Mon-20161010/000641.html)
+
+
+
+### [The Accidental DBA – charity.wtf](https://charity.wtf/2016/10/02/the-accidental-dba/)
+
+
+
+### [Twitter / ?](https://twitter.com/sprinkIing/status/786689911525109760)
+
+
+## Code
+
+### [GitHub - algal/swiftecho: Build & run Swift on macOS & Linux, all from your mac thanks to Docker, with basic C interop](https://github.com/algal/swiftecho)
+
+## Lastly...
