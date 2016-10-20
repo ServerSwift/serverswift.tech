@@ -6,125 +6,77 @@ date:   2016-10-18
 
 ## Links
 
-### [Application Monitoring for Swift Backends, First Update](https://blog.astrocat.tech/application-monitoring-for-swift-backends-first-update-25f63e5c89a2)
+### [Server-Side Swift with Vapor: Getting Started](https://videos.raywenderlich.com/screencasts/server-side-swift-with-vapor-getting-started) <small>by [Ray Wenderlich](https://twitter.com/rwenderlich)</small>
 
+A short tutorial video with a simple example using [Vapor](http://vapor.codes) and hosted on [Heroku](http://heroku.com).
 
+### [Securing Kitura Part 2: Basic Authentication](https://developer.ibm.com/swift/2016/10/17/securing_kitura_basic_authentication/) <small>by [Gelareh Taban](https://twitter.com/gadphly)</small>
 
-### [Full-stack Swift - Part 1 - codecentric Blog : codecentric Blog](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
+An overview of [Kitura-Credentials](https://github.com/IBM-Swift/Kitura-Credentials)
+middleware and example code for both basic and digest authentication.
 
+### [Application Monitoring for Swift Backends, First Update](https://blog.astrocat.tech/application-monitoring-for-swift-backends-first-update-25f63e5c89a2) <small>by [Max Desiatov](https://twitter.com/maxdesiatov)</small>
 
+An update about my progress with [dev tools for server-side Swift](https://www.astrocat.tech)
+I'm currently building.
 
-### [Patrick Bohrer - Technical Lead of Swift@IBM - SwiftCoders](http://pca.st/6qg1)
+### [Type Erasers in Swift](http://chris.eidhof.nl/post/type-erasers-in-swift/) <small>by [Chris Eidhof](https://twitter.com/chriseidhof)</small>
 
+Ever seen `Protocol can only be used as a generic constraint because it has Self or associated type requirements`
+compiler error? This article covers a few ways to work around that.
 
+### [Full-Stack Swift - Part 1](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/) <small>by [Milan Stevanovic](https://twitter.com/FathVader)</small>
 
-### [Highlights from "Benchmarks for the Top SSS Frameworks vs. Node.js" Study](https://youtu.be/qNMWcQVd1m0?t=34m3s)
+A slightly more sophisticated example of an app using [Vapor](https://vapor.codes).
+The article covers both client and server code and communication is implemented
+with [swift-protobuf](https://github.com/apple/swift-protobuf).
+Code is [available on GitHub](https://github.com/milanstevanovic/Bookshelf).
 
+### [Highlights from "Benchmarks for the Top SSS Frameworks vs. Node.js" Study](https://youtu.be/qNMWcQVd1m0?t=34m3s) <small>by [Ryan Collins](https://twitter.com/rymcol)</small>
 
-### [IBM Cloud Tools for Swift - TodoList Tutorial - YouTube](https://m.youtube.com/watch?feature=youtu.be&v=_7rFQg-465E)
+More details about [the benchmarks](https://medium.com/@rymcol/linux-ubuntu-benchmarks-for-server-side-swift-vs-node-js-db52b9f8270b#.72ny1ydj7)
+I've covered in [the previous issue](https://www.serverswift.tech/2016/10/13/issue13.html).
 
+### [IBM Cloud Tools for Swift - TodoList Tutorial](https://youtu.be/_7rFQg-465E)
 
+> For developers interested in creating Swift applications that span both client and server-side code, IBM Cloud Tools for Swift simplifies the management and deployment of server-side assets.
 
-### [How breakpoints are set – Satabdi Das](http://majantali.net/2016/10/how-breakpoints-are-set/)
+### [4 Ways to Fail when Implementing a Microservice Architecture](https://youtu.be/g-1oAKSBBJM) <small>by [Nic Jackson](http://twitter.com/sheriffjackson)</small>
 
-https://about.me/satabdi
+A talk with a self-descriptive title at [London Dev Community Meetup](https://www.meetup.com/London-Dev-Community/events/231917279/). Slides are also [available](https://drive.google.com/file/d/0B6Qsq3BXRaqFdnZhb2NZdjdnZnc/view).
 
-### [4 Ways to Fail when Implementing a Microservice Architecture - Nic Jackson at London Dev Community - YouTube](https://m.youtube.com/watch?t=20s&v=g-1oAKSBBJM)
+### [How to Do XCTestCase `tearDown` Wrong (and Right)](http://qualitycoding.org/teardown/) <small>by [Jon Reid](https://twitter.com/qcoding/)</small>
 
+Quite important and interesting notes about `XCTestCase` lifecycle.
+Will definitely need to bear this in mind next time I use XCTest.
 
+### [How to Create a Telegram Bot with Swift using Vapor](https://www.fabriziobrancati.com/posts/how-create-telegram-bot-swift-vapor-ubuntu-macos) <small>by [Fabrizio Brancati](https://twitter.com/infinity4all)</small>
 
-### [Server Side Swift with Vapor: Getting Started | Ray Wenderlich](https://videos.raywenderlich.com/screencasts/server-side-swift-with-vapor-getting-started)
-
-
-
-
-
-
-### [Specifying function execution contexts](https://www.cocoawithlove.com/blog/specifying-execution-contexts.html)
-
-
-
-### [Sean O'Dowd ⚰ on Twitter: "damn someone at apple needs a hug
-
-"_thereIsNoSadnessLikeTheDeathOfOptimism" https://t.co/4cGoVuvvGp"](https://twitter.com/nicetrysean/status/788194924411760640)
-
-
-
-### [I Am Devloper on Twitter: "Pushing to production https://t.co/UcMYVMfdle"](https://twitter.com/iamdevloper/status/788153043372150784)
-
-
-
-### [Objective-C  id  as Swift  Any  - Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/?id=39)
-
-
-
-### [Swift for Ruby Devs: The Basics pt. 2](https://whatilearnedtoday.io/swift-for-ruby-devs-the-basics-pt-2/)
-
-
-
-### [Thinking from Scratch with Sets in Swift](https://medium.cobeisfresh.com/thinking-from-scratch-with-sets-in-swift-1b3050a76e45#.yk98f6tdm)
-
-
-
-### [UK Pubs Traveling Salesman Problem](http://www.math.uwaterloo.ca/tsp/pubs/)
-
-
-
-### [SWIFTBITES Issue NO. 1 — Optional Pattern Matching – iOS App Development – Medium](https://medium.com/ios-os-x-development/swiftbites-issue-no-1-an-optional-feature-i-didnt-know-so-far-4d417272f13b#.dz6bq8bf6)
-
-
-
-### [GitHub - apollostack/apollo-ios: 📱 A GraphQL client for iOS, written in Swift](https://github.com/apollostack/apollo-ios)
-
-
-
-### [Cartography vs SnapKit | LibHunt](http://buff.ly/2exgmNn)
-
-
-
-### [“Building a Server Side Swift API for Games” workshop Tickets, Tue, Nov 8, 2016 at 1:30 PM | Eventbrite](https://www.eventbrite.com/e/building-a-server-side-swift-api-for-games-workshop-tickets-28396357269)
-
-
-
-### [How to Do XCTestCase tearDown Wrong (and Right)](http://qualitycoding.org/teardown/)
-
-
-
-### [GitHub - harlanhaskins/Probably: A Swift probability and statistics library](https://github.com/harlanhaskins/Probably)
-
-
-
-### [How to create a Telegram bot with Swift using Vapor on Ubuntu / macOS - Fabrizio Brancati](https://www.fabriziobrancati.com/posts/how-create-telegram-bot-swift-vapor-ubuntu-macos)
-
-
-
-### [Securing Kitura Part 2: Basic Authentication - Swift@IBM](https://developer.ibm.com/swift/2016/10/17/securing_kitura_basic_authentication/)
-
-
-
-### [Specifying function execution contexts](https://www.cocoawithlove.com/blog/specifying-execution-contexts.html)
-
-
-
-### [Subrahmanyam KVJ on Twitter: "Clumsy, cutesy, scary, terrifying, awesome, helpful... But very clearly, a key part of our future 😀        
-https://t.co/ySxQ0YuvQQ"](https://twitter.com/SuB8u/status/746156151708880897)
-
-
-
-### [ [swift-build-dev] Proposal: Package Manager Version Pinning
-   ](https://lists.swift.org/pipermail/swift-build-dev/Week-of-Mon-20161010/000641.html)
-
-
-
-### [The Accidental DBA – charity.wtf](https://charity.wtf/2016/10/02/the-accidental-dba/)
-
-
-
-### [Twitter / ?](https://twitter.com/sprinkIing/status/786689911525109760)
-
+This week is quite good for sample projects using [Vapor](http://vapor.codes) 😀 You can see the source code for the bot [on GitHub](https://github.com/FabrizioBrancati/SwiftyBot).
 
 ## Code
 
-### [GitHub - algal/swiftecho: Build & run Swift on macOS & Linux, all from your mac thanks to Docker, with basic C interop](https://github.com/algal/swiftecho)
+### [swiftecho: Example Project to Build & Run Swift on macOS & Linux with Basic C Interop](https://github.com/algal/swiftecho) <small>by [Alexis Gallagher](https://twitter.com/alexisgallagher)</small>
+
+> this little project illustrates a few things that I want to remember for cross-platform Swift development:
+>
+> * how to setup a Swift Package Manager project that compiles on macOS and Linux, using build directives to conditionally import Glibc vs Darwin.C
+>
+> * how to setup a Makefile so you can test building and running on macOS and Linux OS, from the comfort of your macOS command line thanks to Docker
+>
+> * basic interop between Swift and C-oriented system API, using getline to echo standard input
+
+### [Swift on AWS Lambda](https://github.com/algal/SwiftOnLambda) <small>by [Alexis Gallagher](https://twitter.com/alexisgallagher)</small>
+
+A `Makefile`, a Node.js shim and an example project in Swift that can be deployed to
+[AWS Lambda](https://aws.amazon.com/lambda/).
+
+### [Probably: A Swift probability and statistics library](https://github.com/harlanhaskins/Probably) <small>by [Harlan Haskins](https://twitter.com/harlanhaskins)</small>
+
+> Probably is a set of Swift structures for computing the probability and cumulative distributions of different probablistic functions.
+
+### [HeliumLogger: A Lightweight Swift Logging framework.](https://github.com/IBM-Swift/HeliumLogger)
 
 ## Lastly...
+
+### [`[NSManagedObjectContext _thereIsNoSadnessLikeTheDeathOfOptimism];`](https://twitter.com/nicetrysean/status/788194924411760640)
