@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Issue #15"
+date:   2016-10-27
+---
+
+## Links
+
+
+### [Swift.org - Server APIs Project](https://swift.org/server-apis/)
+
+
+
+### [Breaking Down the New Swift.org Server API Work Group](https://developer.ibm.com/swift/2016/10/25/breaking-down-the-new-swift-org-server-api-work-group/) <small>by [John Ponzo](https://twitter.com/john_ponzo)</small>
+
+
+
+
+### [Full-Stack Swift - Part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) <small>by [Milan Stevanovic](https://twitter.com/FathVader)</small>
+
+
+
+### [CocoaPods on Linux. 100% of Tests Passing](https://twitter.com/segiddins/status/790326153051447296) <small>by [Samuel Giddins](https://twitter.com/segiddins)</small>
+
+
+
+### [Swift on Linux](https://ashfurrow.com/blog/swift-on-linux/) <small>by [Ash Furrow](https://twitter.com/ashfurrow)</small>
+
+
+
+
+### [Whole-Module Optimization in Swift 3](https://swift.org/blog/whole-module-optimizations/) <small>by [Erik Eckstein](https://github.com/eeckstein/)</small>
+
+
+
+### [Linux Performance](http://www.brendangregg.com/linuxperf.html) <small>by [Brendan Gregg](https://twitter.com/brendangregg)
+
+
+
+### [Swift ORM: "StORM"](https://github.com/PerfectlySoft/PerfectDocs/blob/master/guide/StORM.md) <small>by [PerfectlySoft](https://twitter.com/perfectlysoft)</small>
+
+
+### [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.html)  <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
+
+https://github.com/nst/STJSON
+
+
+## Code
+
+### [grpc/grpc-swift: The Swift language implementation of gRPC.](https://github.com/grpc/grpc-swift)
+
+## Lastly...
+
+### [Pizza Man](https://twitter.com/_psycho_dad_/status/789135543363743744) 🍕
