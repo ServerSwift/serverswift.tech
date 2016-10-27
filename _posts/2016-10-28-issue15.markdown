@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Issue #15"
-date:   2016-10-27
+date:   2016-10-28
 ---
 
 ## Links
@@ -9,7 +9,10 @@ date:   2016-10-27
 
 ### [Swift.org - Server APIs Project](https://swift.org/server-apis/)
 
+This is certainly a great initiative by Apple
 
+Here is an accompanying [blog post](https://swift.org/blog/server-api-workgroup/)
+by [Chris Bailey](https://twitter.com/Chris__Bailey).
 
 ### [Breaking Down the New Swift.org Server API Work Group](https://developer.ibm.com/swift/2016/10/25/breaking-down-the-new-swift-org-server-api-work-group/) <small>by [John Ponzo](https://twitter.com/john_ponzo)</small>
 
@@ -40,14 +43,20 @@ date:   2016-10-27
 ### [Swift ORM: "StORM"](https://github.com/PerfectlySoft/PerfectDocs/blob/master/guide/StORM.md) <small>by [PerfectlySoft](https://twitter.com/perfectlysoft)</small>
 
 
-### [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.html)  <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
+### [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.html) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
 
 https://github.com/nst/STJSON
 
-
 ## Code
 
-### [grpc/grpc-swift: The Swift language implementation of gRPC.](https://github.com/grpc/grpc-swift)
+### [GraphQLSwift](https://github.com/GraphQLSwift/GraphQL) <small>by [Paulo Faria](https://twitter.com/paulofariarl)</small>
+
+Finally, there is a [GraphQL](http://graphql.org) implementation for Linux 🎉
+
+### [grpc-swift](https://github.com/grpc/grpc-swift) <small>by [Tim Burks](https://twitter.com/timburks)</small>
+
+This is an official implementation of [gRPC](http://www.grpc.io) developed
+under [gRPC GitHub organization](https://github.com/grpc) by a Google Employee.
 
 ## Lastly...
 
