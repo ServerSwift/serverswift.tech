@@ -15,43 +15,53 @@ type from [Vapor](https://vapor.codes) with it's own [`URI`](https://github.com/
 type. Wasn't fun, but is understandable, as Foundation didn't seem to be stable enough at
 the time when Vapor's libraries were developed. Looking forward to improvements in this area.
 
-There is also an accompanying [blog post](https://swift.org/blog/server-api-workgroup/)
-by [Chris Bailey](https://twitter.com/Chris__Bailey).
-
-### [Breaking Down the New Swift.org Server API Work Group](https://developer.ibm.com/swift/2016/10/25/breaking-down-the-new-swift-org-server-api-work-group/) <small>by [John Ponzo](https://twitter.com/john_ponzo)</small>
-
-
-
+Here are accompanying blog posts
+by [Chris Bailey](https://swift.org/blog/server-api-workgroup/) and [John Ponzo](https://developer.ibm.com/swift/2016/10/25/breaking-down-the-new-swift-org-server-api-work-group/).
 
 ### [Full-Stack Swift - Part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) <small>by [Milan Stevanovic](https://twitter.com/FathVader)</small>
 
-
+I've linked to [the first part](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
+in [the previous issue](https://www.serverswift.tech/2016/10/18/issue14.html),
+this time Milan provides sample code for an iOS app that communicates with
+a backend written in Swift through [Protocol Buffers](https://github.com/apple/swift-protobuf).
 
 ### [CocoaPods on Linux. 100% of Tests Passing](https://twitter.com/segiddins/status/790326153051447296) <small>by [Samuel Giddins](https://twitter.com/segiddins)</small>
 
-
+This change was also released today as a part of [1.2.0.beta.1](https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md).
+Personally, would definitely try it when more libraries for Linux support it.
+SwiftPM's lack of version pinning (still [work in progress](https://github.com/aciidb0mb3r/swift-evolution/blob/version-pinning/proposals/NNNN-Version-Pinning.md))
+gets somewhat problematic as soon you have something to deploy to production.
+Fortunately, this so much needed feature works perfectly well with CocoaPods.
 
 ### [Swift on Linux](https://ashfurrow.com/blog/swift-on-linux/) <small>by [Ash Furrow](https://twitter.com/ashfurrow)</small>
 
-
-
+Short and nice post about setting up a Swift development image with [Docker](https://www.docker.com).
 
 ### [Whole-Module Optimization in Swift 3](https://swift.org/blog/whole-module-optimizations/) <small>by [Erik Eckstein](https://github.com/eeckstein/)</small>
 
-
+Interesting post about performance implications of separating your code into modules and
+keeping stuff together in one module. I hope that cross-module optimization isn't
+impossible and we will see it implemented in Swift relatively soon. 🙏
 
 ### [Linux Performance](http://www.brendangregg.com/linuxperf.html) <small>by [Brendan Gregg](https://twitter.com/brendangregg)
 
-
+I didn't realize that application performance can depend on so many things,
+until I saw this most comprehensive compilation of different instrumentation tools.
 
 ### [Swift ORM: "StORM"](https://github.com/PerfectlySoft/PerfectDocs/blob/master/guide/StORM.md) <small>by [PerfectlySoft](https://twitter.com/perfectlysoft)</small>
 
+A new [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) from [Perfect](https://www.perfect.org)
+that supports SQLite, Postgres and MySQL and is in an early
+stage of development at the moment.
 
 ### [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.html) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
 
-https://github.com/nst/STJSON
+> JSON is the de facto standard when it comes to (un)serialising and exchanging data in web and mobile programming. But how well do you really know JSON? We'll read the specifications and write test cases together. We'll test common JSON libraries against our test cases. I'll show that JSON is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the very same behaviour. Moreover, I found that edge cases and maliciously crafted payloads can cause bugs, crashes and denial of services, mainly because JSON libraries rely on specifications that have evolved over time and that left many details loosely specified or not specified at all.
 
-### [JSONShootout](https://github.com/bwhiteley/JSONShootout) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
+### [JSONShootout](https://github.com/bwhiteley/JSONShootout) <small>by [Bart Whiteley](https://twitter.com/bwhiteley)</small>
+
+Yet another link about JSON, this time it's a comparison of JSON and object mapping
+libraries performance. It also features sample code for most of the compared libraries.
 
 ## Code
 
@@ -59,7 +69,11 @@ https://github.com/nst/STJSON
 
 Finally, there is a [GraphQL](http://graphql.org) implementation for Linux 🎉
 
-### [AlexaSkillsKit](https://github.com/choefele/AlexaSkillsKit) <small>by [Paulo Faria](https://twitter.com/paulofariarl)</small>
+### [AlexaSkillsKit: Develop Custom Alexa Skills](https://github.com/choefele/AlexaSkillsKit) <small>by [Claus Höfele](https://twitter.com/claushoefele)</small>
+
+>AlexaSkillsKit is a Swift library that allows you to develop custom skills for [Amazon Alexa](https://developer.amazon.com/alexa), the voice service that powers Echo. It takes care of parsing JSON requests from Amazon, generating the proper responses and providing convenience methods to handle all other features that Alexa offers.
+>
+>AlexaSkillsKit has been inspired by [alexa-app](https://github.com/matt-kruse/alexa-app), [SwiftOnLambda](https://github.com/algal/SwiftOnLambda) and [alexa-skills-kit-java](https://github.com/amzn/alexa-skills-kit-java).
 
 ### [grpc-swift](https://github.com/grpc/grpc-swift) <small>by [Tim Burks](https://twitter.com/timburks)</small>
 
