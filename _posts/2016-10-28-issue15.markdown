@@ -6,12 +6,16 @@ date:   2016-10-28
 
 ## Links
 
-
 ### [Swift.org - Server APIs Project](https://swift.org/server-apis/)
 
-This is certainly a great initiative by Apple
+Definitely a great initiative to unify all the duplicated libraries we currently
+have for URL parsing, HTTP parsing, encryption etc. As an example,
+I had a problem this week trying to use a Swift library with Foundation's [`URL`](https://developer.apple.com/reference/foundation/url)
+type from [Vapor](https://vapor.codes) with it's own [`URI`](https://github.com/vapor/engine/blob/master/Sources/URI/Model/URI.swift)
+type. Wasn't fun, but is understandable, as Foundation didn't seem to be stable enough at
+the time when Vapor's libraries were developed. Looking forward to improvements in this area.
 
-Here is an accompanying [blog post](https://swift.org/blog/server-api-workgroup/)
+There is also an accompanying [blog post](https://swift.org/blog/server-api-workgroup/)
 by [Chris Bailey](https://twitter.com/Chris__Bailey).
 
 ### [Breaking Down the New Swift.org Server API Work Group](https://developer.ibm.com/swift/2016/10/25/breaking-down-the-new-swift-org-server-api-work-group/) <small>by [John Ponzo](https://twitter.com/john_ponzo)</small>
@@ -47,11 +51,15 @@ by [Chris Bailey](https://twitter.com/Chris__Bailey).
 
 https://github.com/nst/STJSON
 
+### [](https://github.com/bwhiteley/JSONShootout) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
+
 ## Code
 
 ### [GraphQLSwift](https://github.com/GraphQLSwift/GraphQL) <small>by [Paulo Faria](https://twitter.com/paulofariarl)</small>
 
 Finally, there is a [GraphQL](http://graphql.org) implementation for Linux 🎉
+
+### [AlexaSkillsKit](https://github.com/choefele/AlexaSkillsKit) <small>by [Paulo Faria](https://twitter.com/paulofariarl)</small>
 
 ### [grpc-swift](https://github.com/grpc/grpc-swift) <small>by [Tim Burks](https://twitter.com/timburks)</small>
 
