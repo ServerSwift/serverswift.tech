@@ -51,7 +51,7 @@ by [Chris Bailey](https://twitter.com/Chris__Bailey).
 
 https://github.com/nst/STJSON
 
-### [](https://github.com/bwhiteley/JSONShootout) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
+### [JSONShootout](https://github.com/bwhiteley/JSONShootout) <small>by [Nicolas Seriot](https://twitter.com/nst021)</small>
 
 ## Code
 
