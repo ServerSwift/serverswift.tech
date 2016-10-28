@@ -78,7 +78,7 @@ Finally, there is a [GraphQL](http://graphql.org) implementation for Linux 🎉
 ### [grpc-swift](https://github.com/grpc/grpc-swift) <small>by [Tim Burks](https://twitter.com/timburks)</small>
 
 This is an official implementation of [gRPC](http://www.grpc.io) developed
-under [gRPC GitHub organization](https://github.com/grpc) by a Google Employee.
+under [gRPC GitHub organization](https://github.com/grpc) by a Google employee.
 
 ## Lastly...
 
